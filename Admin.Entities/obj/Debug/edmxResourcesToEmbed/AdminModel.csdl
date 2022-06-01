@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdminModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="db_AdminEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="aausers" EntityType="AdminModel.aausers" />
+    <EntitySet Name="clientes" EntityType="AdminModel.clientes" />
+    <EntitySet Name="direcciones" EntityType="AdminModel.direcciones" />
+    <AssociationSet Name="fk_cliente_dir2" Association="AdminModel.fk_cliente_dir2">
+      <End Role="clientes" EntitySet="clientes" />
+      <End Role="direcciones" EntitySet="direcciones" />
+    </AssociationSet>
+    <EntitySet Name="usuarios_manifiesto_menu" EntityType="AdminModel.usuarios_manifiesto_menu" />
+  </EntityContainer>
+  <EntityType Name="aausers">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+    <Property Name="password" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+    <Property Name="firstname" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+    <Property Name="lastname" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+    <Property Name="admin" Type="Boolean" />
+    <Property Name="aereo" Type="Boolean" />
+    <Property Name="marino" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="clientes">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codigo_tributario" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="nombre_cliente" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="nombre_facturar" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="id_vendedor" Type="Int64" />
+    <Property Name="id_tipo_cliente" Type="Int32" />
+    <Property Name="id_grupo" Type="Int32" />
+    <Property Name="id_cobrador" Type="Int32" />
+    <Property Name="id_estatus" Type="Int32" />
+    <Property Name="es_consigneer" Type="Boolean" />
+    <Property Name="es_shipper" Type="Boolean" />
+    <Property Name="id_frecuencia" Type="Int32" />
+    <Property Name="id_credito" Type="Int32" />
+    <Property Name="fecha_creacion" Type="DateTime" />
+    <Property Name="hora_creacion" Type="Double" />
+    <Property Name="id_clase" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="id_anterior" Type="Int64" />
+    <Property Name="id_usuario_creacion" Type="Int64" />
+    <Property Name="fecha_uvisita" Type="DateTime" />
+    <Property Name="usr" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="pwd" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+    <Property Name="id_sales_support" Type="Int64" />
+    <Property Name="ultima_fecha_descarga" Type="DateTime" />
+    <Property Name="encuesta_id" Type="Int32" />
+    <Property Name="encuesta" Type="Int32" />
+    <Property Name="id_pais" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="id_regimen" Type="Int16" />
+    <Property Name="codigo_tributario2" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="observacion" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+    <Property Name="id_usuario_modificacion" Type="Int64" />
+    <Property Name="fecha_modificacion" Type="DateTime" />
+    <Property Name="ultimo_tipo_movimiento" Type="Int64" />
+    <Property Name="ultimo_movimiento_asegurado" Type="Boolean" />
+    <Property Name="requiere_rubro_alias" Type="Int32" />
+    <Property Name="id_vendedor_grh" Type="Int64" />
+    <Property Name="id_sales_support_grh" Type="Int64" />
+    <Property Name="ref_interna_pricing" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="con_cotizacion" Type="Boolean" />
+    <Property Name="marca" Type="Int32" />
+    <Property Name="email" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="es_coloader" Type="Boolean" />
+    <Property Name="incluir_saldo" Type="Boolean" />
+    <NavigationProperty Name="direcciones" Relationship="AdminModel.fk_cliente_dir2" FromRole="clientes" ToRole="direcciones" />
+  </EntityType>
+  <EntityType Name="direcciones">
+    <Key>
+      <PropertyRef Name="id_direccion" />
+    </Key>
+    <Property Name="id_direccion" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_nivel_geografico" Type="Int64" />
+    <Property Name="direccion_completa" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="id_cliente" Type="Int64" />
+    <Property Name="address" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="city" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+    <Property Name="state" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+    <Property Name="zipcode" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+    <Property Name="name" Type="String" MaxLength="65" Unicode="true" FixedLength="false" />
+    <Property Name="phone_number" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="group" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+    <Property Name="url" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="image" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="lat" Type="Single" />
+    <Property Name="lng" Type="Single" />
+    <Property Name="email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="id_tipo_direccion" Type="Int32" Nullable="false" />
+    <Property Name="boletines" Type="Boolean" />
+    <Property Name="activo" Type="Boolean" />
+    <NavigationProperty Name="clientes" Relationship="AdminModel.fk_cliente_dir2" FromRole="direcciones" ToRole="clientes" />
+  </EntityType>
+  <Association Name="fk_cliente_dir2">
+    <End Role="clientes" Type="AdminModel.clientes" Multiplicity="0..1" />
+    <End Role="direcciones" Type="AdminModel.direcciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clientes">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="direcciones">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="usuarios_manifiesto_menu">
+    <Key>
+      <PropertyRef Name="id_menu" />
+    </Key>
+    <Property Type="Int32" Name="id_menu" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="opcion" MaxLength="65535" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="controller" MaxLength="65535" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="action" MaxLength="65535" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="area" MaxLength="65535" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="estatus" />
+  </EntityType>
+</Schema>

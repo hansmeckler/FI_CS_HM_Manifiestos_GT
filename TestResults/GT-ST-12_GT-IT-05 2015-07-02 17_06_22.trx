@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="93227214-2903-4efc-a505-902f9fb53358" name="GT-ST-12@GT-IT-05 2015-07-02 17:06:22" runUser="GT-IT-05\GT-ST-12" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dab5cc4b-a662-4624-a19b-0adf81ea34e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="GT-ST-12_GT-IT-05 2015-07-02 17_06_22">
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\db_aereo.Entities\bin\Debug\db_aereo.Entities.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\ventas_gt.Entities\bin\Debug\ventas_gt.Entities.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\AutoMapper.3.2.1\lib\net40\AutoMapper.Net4.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Web.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\packages\AutoMapper.3.2.1\lib\net40\AutoMapper.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-07-02T17:06:22.5197596-06:00" queuing="2015-07-02T17:06:22.5647622-06:00" start="2015-07-02T17:06:22.5717626-06:00" finish="2015-07-02T17:06:23.0797916-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="15" executed="15" passed="13" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Login_Post_InvalidUser" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="9ff32c1d-748e-5536-d71f-7ff29fb29e81">
+      <Execution id="b994eda1-9fbf-4ccb-a4db-25540faf83ff" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Controllers.AccountControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Login_Post_InvalidUser" />
+    </UnitTest>
+    <UnitTest name="Index_Return_WithData" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="580c43ce-5ece-8590-bf09-da59bbe29037">
+      <Execution id="b4830da3-3278-4085-b0c2-661533554826" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Maritimo.TraficoControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Return_WithData" />
+    </UnitTest>
+    <UnitTest name="Create_Return_WithData" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="f2863c67-4f0a-4aa9-7a1c-c78f7666e71c">
+      <Execution id="949af6fb-6b92-41d1-a319-f708e1c1372b" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Maritimo.TraficoControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Return_WithData" />
+    </UnitTest>
+    <UnitTest name="Index_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="b046c936-faa9-abb3-379e-44eedefa2f29">
+      <Execution id="a62ab632-cd92-4af0-be4b-79c277eaf6a0" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Maritimo.ManifestControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Create_Return_View" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="594525dc-3ee5-db5e-4a9f-8b1683282581">
+      <Execution id="c497b4a6-bf91-4483-8ee3-2e052f45c2c4" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Maritimo.TraficoControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Return_View" />
+    </UnitTest>
+    <UnitTest name="Create_Voyage_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="d7c67ffe-d6a0-e0bb-d782-a0e1cf47fc10">
+      <Execution id="5bce187c-87d2-47b6-bf07-8bcbedf735bc" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Aereo.ManifestControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Create_Voyage_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Index_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="859782cc-4c7f-74ea-cd29-83a633891ab5">
+      <Execution id="a24e4876-eae2-493f-b447-b8868104eae6" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Aereo.ExportControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Index_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="6fc850a3-de3f-2da2-e36c-a81395bd8165">
+      <Execution id="a20b117d-c8f7-4f85-ad60-a473d820b6cd" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Maritimo.TraficoControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Login_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="7acf22b7-2b6a-79e5-ef78-7b7f6634f77f">
+      <Execution id="92c71c59-424a-4c4d-8af4-fafdeb87a070" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Controllers.AccountControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Login_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="finGuia_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="80e1f92b-baf3-7ac4-b7ca-e9cbf5bb42a3">
+      <Execution id="af7b39d9-bcc1-44a6-a9c6-aa5a6a5e88a2" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Aereo.ManifestControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="finGuia_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Index_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="15568ee3-e003-e275-ae46-1e423acfa098">
+      <Execution id="99aebbd9-6170-4302-a6a6-a1d8f65ab102" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Aereo.ImportControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="LogOff_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="48df8f7f-84dc-8856-abfc-e2193f504ae6">
+      <Execution id="0f74be84-570c-40d3-93b8-f02f31733b1b" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Controllers.AccountControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Login_Post_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="c14d9c41-032c-5ed7-54d3-3fafc2192b17">
+      <Execution id="4c53a57c-d694-4a30-9936-014298b9f7ae" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Controllers.AccountControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Login_Post_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Index_Return_NotNull" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="0be65871-ac44-91e8-eff5-5f8dffae63c4">
+      <Execution id="ea032703-17fc-4b6e-b06e-a709d5046b11" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Aereo.ManifestControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Return_NotNull" />
+    </UnitTest>
+    <UnitTest name="Login_Post_Return_InvalidModel" storage="c:\inetpub\wwwroot\proyectoslv\manifiesto.web\manifiesto.web.tests\bin\debug\manifiesto.web.tests.dll" id="c79ee40d-bcef-14c1-44f8-1fc1d9c2b8d9">
+      <Execution id="ee520fa6-9e7c-4d6d-add8-dfd1644c4954" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/ProyectosLV/Manifiesto.Web/Manifiesto.Web.Tests/bin/Debug/Manifiesto.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Manifiesto.Web.Tests.Controllers.AccountControllerTest, Manifiesto.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Login_Post_Return_InvalidModel" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0be65871-ac44-91e8-eff5-5f8dffae63c4" executionId="ea032703-17fc-4b6e-b06e-a709d5046b11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15568ee3-e003-e275-ae46-1e423acfa098" executionId="99aebbd9-6170-4302-a6a6-a1d8f65ab102" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48df8f7f-84dc-8856-abfc-e2193f504ae6" executionId="0f74be84-570c-40d3-93b8-f02f31733b1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="580c43ce-5ece-8590-bf09-da59bbe29037" executionId="b4830da3-3278-4085-b0c2-661533554826" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="594525dc-3ee5-db5e-4a9f-8b1683282581" executionId="c497b4a6-bf91-4483-8ee3-2e052f45c2c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fc850a3-de3f-2da2-e36c-a81395bd8165" executionId="a20b117d-c8f7-4f85-ad60-a473d820b6cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7acf22b7-2b6a-79e5-ef78-7b7f6634f77f" executionId="92c71c59-424a-4c4d-8af4-fafdeb87a070" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80e1f92b-baf3-7ac4-b7ca-e9cbf5bb42a3" executionId="af7b39d9-bcc1-44a6-a9c6-aa5a6a5e88a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="859782cc-4c7f-74ea-cd29-83a633891ab5" executionId="a24e4876-eae2-493f-b447-b8868104eae6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ff32c1d-748e-5536-d71f-7ff29fb29e81" executionId="b994eda1-9fbf-4ccb-a4db-25540faf83ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b046c936-faa9-abb3-379e-44eedefa2f29" executionId="a62ab632-cd92-4af0-be4b-79c277eaf6a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c14d9c41-032c-5ed7-54d3-3fafc2192b17" executionId="4c53a57c-d694-4a30-9936-014298b9f7ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c79ee40d-bcef-14c1-44f8-1fc1d9c2b8d9" executionId="ee520fa6-9e7c-4d6d-add8-dfd1644c4954" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7c67ffe-d6a0-e0bb-d782-a0e1cf47fc10" executionId="5bce187c-87d2-47b6-bf07-8bcbedf735bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2863c67-4f0a-4aa9-7a1c-c78f7666e71c" executionId="949af6fb-6b92-41d1-a319-f708e1c1372b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea032703-17fc-4b6e-b06e-a709d5046b11" testId="0be65871-ac44-91e8-eff5-5f8dffae63c4" testName="Index_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.1450518" startTime="2015-07-02T17:06:22.5737627-06:00" endTime="2015-07-02T17:06:22.8397779-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea032703-17fc-4b6e-b06e-a709d5046b11">
+    </UnitTestResult>
+    <UnitTestResult executionId="99aebbd9-6170-4302-a6a6-a1d8f65ab102" testId="15568ee3-e003-e275-ae46-1e423acfa098" testName="Index_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0031757" startTime="2015-07-02T17:06:22.8407779-06:00" endTime="2015-07-02T17:06:22.8457782-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99aebbd9-6170-4302-a6a6-a1d8f65ab102">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f74be84-570c-40d3-93b8-f02f31733b1b" testId="48df8f7f-84dc-8856-abfc-e2193f504ae6" testName="LogOff_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0187556" startTime="2015-07-02T17:06:22.8467783-06:00" endTime="2015-07-02T17:06:22.8677795-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f74be84-570c-40d3-93b8-f02f31733b1b">
+    </UnitTestResult>
+    <UnitTestResult executionId="b4830da3-3278-4085-b0c2-661533554826" testId="580c43ce-5ece-8590-bf09-da59bbe29037" testName="Index_Return_WithData" computerName="GT-IT-05" duration="00:00:00.0069628" startTime="2015-07-02T17:06:22.8697796-06:00" endTime="2015-07-02T17:06:22.8777801-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4830da3-3278-4085-b0c2-661533554826">
+    </UnitTestResult>
+    <UnitTestResult executionId="c497b4a6-bf91-4483-8ee3-2e052f45c2c4" testId="594525dc-3ee5-db5e-4a9f-8b1683282581" testName="Create_Return_View" computerName="GT-IT-05" duration="00:00:00.0009686" startTime="2015-07-02T17:06:22.8797802-06:00" endTime="2015-07-02T17:06:22.8827803-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c497b4a6-bf91-4483-8ee3-2e052f45c2c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="a20b117d-c8f7-4f85-ad60-a473d820b6cd" testId="6fc850a3-de3f-2da2-e36c-a81395bd8165" testName="Index_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0008792" startTime="2015-07-02T17:06:22.8827803-06:00" endTime="2015-07-02T17:06:22.8857805-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a20b117d-c8f7-4f85-ad60-a473d820b6cd">
+    </UnitTestResult>
+    <UnitTestResult executionId="92c71c59-424a-4c4d-8af4-fafdeb87a070" testId="7acf22b7-2b6a-79e5-ef78-7b7f6634f77f" testName="Login_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0053775" startTime="2015-07-02T17:06:22.8867806-06:00" endTime="2015-07-02T17:06:22.8947810-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92c71c59-424a-4c4d-8af4-fafdeb87a070">
+    </UnitTestResult>
+    <UnitTestResult executionId="af7b39d9-bcc1-44a6-a9c6-aa5a6a5e88a2" testId="80e1f92b-baf3-7ac4-b7ca-e9cbf5bb42a3" testName="finGuia_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0123835" startTime="2015-07-02T17:06:22.8957811-06:00" endTime="2015-07-02T17:06:22.9097819-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af7b39d9-bcc1-44a6-a9c6-aa5a6a5e88a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="a24e4876-eae2-493f-b447-b8868104eae6" testId="859782cc-4c7f-74ea-cd29-83a633891ab5" testName="Index_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0013785" startTime="2015-07-02T17:06:22.9107819-06:00" endTime="2015-07-02T17:06:22.9137821-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a24e4876-eae2-493f-b447-b8868104eae6">
+    </UnitTestResult>
+    <UnitTestResult executionId="b994eda1-9fbf-4ccb-a4db-25540faf83ff" testId="9ff32c1d-748e-5536-d71f-7ff29fb29e81" testName="Login_Post_InvalidUser" computerName="GT-IT-05" duration="00:00:00.0017806" startTime="2015-07-02T17:06:22.9147822-06:00" endTime="2015-07-02T17:06:22.9187824-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b994eda1-9fbf-4ccb-a4db-25540faf83ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="a62ab632-cd92-4af0-be4b-79c277eaf6a0" testId="b046c936-faa9-abb3-379e-44eedefa2f29" testName="Index_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0003474" startTime="2015-07-02T17:06:22.9197825-06:00" endTime="2015-07-02T17:06:22.9217826-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a62ab632-cd92-4af0-be4b-79c277eaf6a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c53a57c-d694-4a30-9936-014298b9f7ae" testId="c14d9c41-032c-5ed7-54d3-3fafc2192b17" testName="Login_Post_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.1150711" startTime="2015-07-02T17:06:22.9227826-06:00" endTime="2015-07-02T17:06:23.0397893-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c53a57c-d694-4a30-9936-014298b9f7ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee520fa6-9e7c-4d6d-add8-dfd1644c4954" testId="c79ee40d-bcef-14c1-44f8-1fc1d9c2b8d9" testName="Login_Post_Return_InvalidModel" computerName="GT-IT-05" duration="00:00:00.0002825" startTime="2015-07-02T17:06:23.0407894-06:00" endTime="2015-07-02T17:06:23.0437896-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee520fa6-9e7c-4d6d-add8-dfd1644c4954">
+    </UnitTestResult>
+    <UnitTestResult executionId="5bce187c-87d2-47b6-bf07-8bcbedf735bc" testId="d7c67ffe-d6a0-e0bb-d782-a0e1cf47fc10" testName="Create_Voyage_Return_NotNull" computerName="GT-IT-05" duration="00:00:00.0141629" startTime="2015-07-02T17:06:23.0447896-06:00" endTime="2015-07-02T17:06:23.0607905-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bce187c-87d2-47b6-bf07-8bcbedf735bc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Manifiesto.Web.Tests.Aereo.ManifestControllerTest.Create_Voyage_Return_NotNull threw exception: 
+System.InvalidCastException: No se puede convertir un objeto de tipo 'db_aereo.Entities.Entities.cuscar_voyage_info' al tipo 'System.Delegate'.</Message>
+          <StackTrace>    en Moq.AddActualInvocation.HandleIntercept(ICallContext invocation, InterceptorContext ctx, CurrentInterceptContext localctx)
+   en Moq.Interceptor.Intercept(ICallContext invocation)
+   en Moq.Proxy.CastleProxyFactory.Interceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.ICuscarAereoServicesProxy.add_voyage_cuscar_info(cuscar_voyage_info vm)
+   en Manifiesto.Web.Areas.Aereo.Controllers.ManifestController.create_voyage(cuscar_voyage_info dm) en C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\Areas\Aereo\Controllers\ManifestController.cs:línea 57
+   en Manifiesto.Web.Tests.Aereo.ManifestControllerTest.Create_Voyage_Return_NotNull() en C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\Aereo\ManifestControllerTest.cs:línea 156
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="949af6fb-6b92-41d1-a319-f708e1c1372b" testId="f2863c67-4f0a-4aa9-7a1c-c78f7666e71c" testName="Create_Return_WithData" computerName="GT-IT-05" duration="00:00:00.0067847" startTime="2015-07-02T17:06:23.0617906-06:00" endTime="2015-07-02T17:06:23.0697910-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="949af6fb-6b92-41d1-a319-f708e1c1372b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Manifiesto.Web.Tests.Maritimo.TraficoControllerTest.Create_Return_WithData threw exception: 
+Moq.MockVerificationException: The following setups were not matched:
+ICuscarMaritimoServices f =&gt; f.validate_size_of_name_commodities(35, "FCL")
+</Message>
+          <StackTrace>    en Moq.Mock.VerifyAll()
+   en Manifiesto.Web.Tests.Maritimo.TraficoControllerTest.Create_Return_WithData() en C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\Maritimo\TraficoControllerTest.cs:línea 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

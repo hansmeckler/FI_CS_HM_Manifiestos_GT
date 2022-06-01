@@ -1,0 +1,144 @@
+﻿@model Manifiesto.Web.Models.cuscar_users_VM
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Crear Permisos Usuario</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nombre_usuario)
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.id_usuario)
+            @Html.HiddenFor(model => model.nombre_usuario)
+            @Html.ValidationMessageFor(model => model.id_usuario)
+
+            @(Html.Kendo().AutoComplete()
+                  .Name("usuarios")
+                  .DataTextField("nombre_usuario")
+                  .Filter("contains")
+                  .MinLength(3)
+                  .Template("#= id_usuario # | #= nombre_usuario #")
+                  .HtmlAttributes(new { style = "width:250px" })
+                  .DataSource(source => {
+                      source.Read(read =>
+                      {
+                          read.Action("GetUsers_Read", "Account")
+                              .Data("onAdditionalData");
+                      })
+                      .ServerFiltering(true);
+                  }) .Events(e =>
+                    {
+                        e.Select("onSelect");
+                    })
+            )
+        </div>
+
+        <table class="table">
+           <thead>
+            <tr>
+                <td>
+                     @Html.LabelFor(model => model.admin)
+                </td>
+                <td>
+                     @Html.LabelFor(model => model.aereo)
+                </td>
+                <td>
+                     @Html.LabelFor(model => model.marino)
+                </td>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td>
+                    @Html.EditorFor(model => model.admin)
+                    @Html.ValidationMessageFor(model => model.admin)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.aereo)
+                    @Html.ValidationMessageFor(model => model.aereo)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.marino)
+                    @Html.ValidationMessageFor(model => model.marino)
+                </td>
+            </tr>
+           </tbody>  
+        </table>
+
+        <p>
+            <input type="submit" value="Create" class="btn btn-default" />
+        </p>
+    </fieldset>
+}
+
+<style>
+    .demo-section {
+        width: 450px;
+        margin: 35px auto 50px;
+        padding: 30px;
+    }
+    .demo-section h2 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+</style>
+<script>
+    function onSelect(e) {
+        var dataItem = this.dataItem(e.item.index());
+        $("#id_usuario").val(dataItem.id_usuario);
+        $("#nombre_usuario").val(dataItem.nombre_usuario);
+    }
+
+    function onAdditionalData() {
+        return {
+            text: $("#usuarios").val()
+        };
+    }
+</script>
+@*
+<br />
+    @(Html.Kendo().Grid<master_aimar.Entities.Entities.usuarios_x_empresa>()
+        .Name("Detail")
+        .Columns(columns =>
+                        {
+                            columns.AutoGenerate(true);
+                            columns.Command(command =>
+                                                {
+                                                    command.Edit();
+                                                    command.Destroy();
+                                                }).Width(200);
+                        })
+        .DataSource(datasoure => datasoure.Ajax()
+                                    .Model(model => model.Id(record => record.id))
+                                    .Read(read => read.Action("Get_Detail", "Account"))
+                                    .Create(create => create.Action("Add_Detail", "Account"))
+                                    .Update(update => update.Action("Update_Detail", "Account"))
+                                    .Destroy(delete => delete.Action("Delete_Detail", "Account"))
+                                    .PageSize(15)
+        )
+        .ToolBar(toolbar => toolbar.Create())
+        .Editable(editable => editable.Mode(GridEditMode.InLine))
+        .Sortable()
+        .Selectable()
+        .Pageable(pageable =>
+                        {
+                            pageable.Refresh(true);
+                            pageable.PageSizes(true);
+                        })
+    )
+    *@
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

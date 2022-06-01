@@ -1,0 +1,16 @@
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\bin\Debug\Admin.Entities.dll.config
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\bin\Debug\Admin.Entities.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\bin\Debug\Admin.Entities.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\bin\Debug\EntityFramework.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\bin\Debug\EntityFramework.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\obj\Debug\Admin.Entities.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Admin.Entities\obj\Debug\Admin.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\bin\Debug\Admin.Entities.dll.config
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\bin\Debug\Admin.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\bin\Debug\Admin.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\bin\Debug\EntityFramework.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\bin\Debug\EntityFramework.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\obj\Debug\Admin.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Admin.Entities\obj\Debug\Admin.Entities.pdb

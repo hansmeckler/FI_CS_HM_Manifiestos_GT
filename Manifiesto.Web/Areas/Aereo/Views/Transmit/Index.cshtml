@@ -1,0 +1,68 @@
+﻿@model Manifiesto.Web.Areas.Aereo.Models.Transmit
+
+@{
+    ViewBag.Title = "Transmitir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.id_empresa == "GT")
+{
+    <h2>TRANSMISIÓN DE MANIFIESTOS AIMAR</h2>
+}
+else if (Model.id_empresa == "GTLTF")
+{
+    <h2>TRANSMISIÓN DE MANIFIESTOS LATIN FREIGHT</h2>
+}
+else if (Model.id_empresa == "GTTLA")
+{
+    <h2>TRANSMISIÓN DE MANIFIESTOS GRUPO TLA</h2>
+}
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { @action = "https://farm3.sat.gob.gt/manifiestos/rest/receptorCuscar/ingresarCuscar", htmlAttributes = new { @class = "form-control", name = "form", id = "form" } }))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Enviar a SAT</legend>
+
+            @Html.HiddenFor(model => model.usuario, new { htmlAttributes = new { @class = "form-control", name = "usuario", id = "usuario", type = "hidden" } })
+            @Html.ValidationMessageFor(model => model.usuario)
+
+            @Html.HiddenFor(model => model.password, new { htmlAttributes = new { @class = "form-control", name = "password", id = "password" } })
+            @Html.ValidationMessageFor(model => model.password)
+
+            <div class="editor-label">
+                @*@Html.LabelFor(model => model.nombreArchivo)*@
+                Nombre del Archivo
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.nombreArchivo, new { @class = "form-control", style = "width: 13%; height:10%;", @readonly = "readonly", htmlAttributes = new { name = "nombreArchivo", id = "nombreArchivo" } })
+                @Html.ValidationMessageFor(model => model.nombreArchivo)
+            </div>
+            
+            @Html.HiddenFor(model => model.procesamientoSincrono, new { htmlAttributes = new { @class = "form-control", name = "procesamientoSincrono", id = "procesamientoSincrono" } })
+            @Html.ValidationMessageFor(model => model.procesamientoSincrono)
+
+            @Html.HiddenFor(model => model.respuestaXml, new { htmlAttributes = new { @class = "form-control", name = "respuestaXml", id = "respuestaXml" } })
+            @Html.ValidationMessageFor(model => model.respuestaXml)
+            <br />
+            <div class="editor-label">
+                @*@Html.LabelFor(model => model.contenidoArchivo)*@
+                Contenido del Archivo
+            </div>
+            <div class="editor-field">
+                @Html.TextAreaFor(model => model.contenidoArchivo, new { style = "width: 100%;", wrap = "off", rows = "10", @class = "form-control", htmlAttributes = new { name = "contenidoArchivo", id = "contenidoArchivo" } })
+                @Html.ValidationMessageFor(model => model.contenidoArchivo)
+                
+            </div>
+            <br />
+        
+            <p>
+                <input type="submit" value="Transmitir" class="btn btn-default" />
+            </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

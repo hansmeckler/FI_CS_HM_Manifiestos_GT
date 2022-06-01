@@ -1,0 +1,59 @@
+﻿@model Manifiesto.Web.Areas.Maritimo.Models.CuscarPreviewVM
+
+<h1>My Partial View</h1>
+
+ <fieldset>
+        <legend>CuscarPreviewVM</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.no_cuscar)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.no_cuscar)
+            @Html.ValidationMessageFor(model => model.no_cuscar)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.cuscar_ref)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.cuscar_ref)
+            @Html.ValidationMessageFor(model => model.cuscar_ref)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.type)
+            @Html.ValidationMessageFor(model => model.type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.function)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.function)
+            @Html.ValidationMessageFor(model => model.function)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.operation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.operation)
+            @Html.ValidationMessageFor(model => model.operation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.sender)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.sender)
+            @Html.ValidationMessageFor(model => model.sender)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>

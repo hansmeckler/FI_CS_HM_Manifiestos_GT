@@ -1,0 +1,588 @@
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Data.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Kendo.Mvc.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AereoEntities.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Admin.Entities.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Data.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AereoEntities.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Admin.Entities.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\bawEntities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Mono.Security.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Mono.Security.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.EntityFramework.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.EntityFramework.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\de\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\es\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\fi\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\fr\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\ja\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Mono.Security.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Npgsql.EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\de\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\es\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll.config
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.Tests.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\AutoMapper.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Mono.Security.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Moq.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Npgsql.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Npgsql.EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\aimar_baw.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\MySql.Data.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Unity.Mvc4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\WebGrease.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\db_aereo.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Manifiesto.Web.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\ventas_gt.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\AutoMapper.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Moq.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Npgsql.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Npgsql.EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\master-aimar.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\aimar_baw.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\de\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\es\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web.Tests\obj\Debug\Manifiesto.Web.Tests.pdb

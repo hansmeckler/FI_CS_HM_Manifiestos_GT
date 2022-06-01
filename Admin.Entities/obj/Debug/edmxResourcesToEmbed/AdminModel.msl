@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AdminModelStoreContainer" CdmEntityContainer="db_AdminEntities">
+    <EntitySetMapping Name="aausers">
+      <EntityTypeMapping TypeName="AdminModel.aausers">
+        <MappingFragment StoreEntitySet="aausers">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="admin" ColumnName="admin" />
+          <ScalarProperty Name="aereo" ColumnName="aereo" />
+          <ScalarProperty Name="marino" ColumnName="marino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clientes">
+      <EntityTypeMapping TypeName="AdminModel.clientes">
+        <MappingFragment StoreEntitySet="clientes">
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="codigo_tributario" ColumnName="codigo_tributario" />
+          <ScalarProperty Name="nombre_cliente" ColumnName="nombre_cliente" />
+          <ScalarProperty Name="nombre_facturar" ColumnName="nombre_facturar" />
+          <ScalarProperty Name="id_vendedor" ColumnName="id_vendedor" />
+          <ScalarProperty Name="id_tipo_cliente" ColumnName="id_tipo_cliente" />
+          <ScalarProperty Name="id_grupo" ColumnName="id_grupo" />
+          <ScalarProperty Name="id_cobrador" ColumnName="id_cobrador" />
+          <ScalarProperty Name="id_estatus" ColumnName="id_estatus" />
+          <ScalarProperty Name="es_consigneer" ColumnName="es_consigneer" />
+          <ScalarProperty Name="es_shipper" ColumnName="es_shipper" />
+          <ScalarProperty Name="id_frecuencia" ColumnName="id_frecuencia" />
+          <ScalarProperty Name="id_credito" ColumnName="id_credito" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+          <ScalarProperty Name="hora_creacion" ColumnName="hora_creacion" />
+          <ScalarProperty Name="id_clase" ColumnName="id_clase" />
+          <ScalarProperty Name="id_anterior" ColumnName="id_anterior" />
+          <ScalarProperty Name="id_usuario_creacion" ColumnName="id_usuario_creacion" />
+          <ScalarProperty Name="fecha_uvisita" ColumnName="fecha_uvisita" />
+          <ScalarProperty Name="usr" ColumnName="usr" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+          <ScalarProperty Name="id_sales_support" ColumnName="id_sales_support" />
+          <ScalarProperty Name="ultima_fecha_descarga" ColumnName="ultima_fecha_descarga" />
+          <ScalarProperty Name="encuesta_id" ColumnName="encuesta_id" />
+          <ScalarProperty Name="encuesta" ColumnName="encuesta" />
+          <ScalarProperty Name="id_pais" ColumnName="id_pais" />
+          <ScalarProperty Name="id_regimen" ColumnName="id_regimen" />
+          <ScalarProperty Name="codigo_tributario2" ColumnName="codigo_tributario2" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="id_usuario_modificacion" ColumnName="id_usuario_modificacion" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="ultimo_tipo_movimiento" ColumnName="ultimo_tipo_movimiento" />
+          <ScalarProperty Name="ultimo_movimiento_asegurado" ColumnName="ultimo_movimiento_asegurado" />
+          <ScalarProperty Name="requiere_rubro_alias" ColumnName="requiere_rubro_alias" />
+          <ScalarProperty Name="id_vendedor_grh" ColumnName="id_vendedor_grh" />
+          <ScalarProperty Name="id_sales_support_grh" ColumnName="id_sales_support_grh" />
+          <ScalarProperty Name="ref_interna_pricing" ColumnName="ref_interna_pricing" />
+          <ScalarProperty Name="con_cotizacion" ColumnName="con_cotizacion" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="es_coloader" ColumnName="es_coloader" />
+          <ScalarProperty Name="incluir_saldo" ColumnName="incluir_saldo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="direcciones">
+      <EntityTypeMapping TypeName="AdminModel.direcciones">
+        <MappingFragment StoreEntitySet="direcciones">
+          <ScalarProperty Name="id_direccion" ColumnName="id_direccion" />
+          <ScalarProperty Name="id_nivel_geografico" ColumnName="id_nivel_geografico" />
+          <ScalarProperty Name="direccion_completa" ColumnName="direccion_completa" />
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="zipcode" ColumnName="zipcode" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="phone_number" ColumnName="phone number" />
+          <ScalarProperty Name="group" ColumnName="group" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="lat" ColumnName="lat" />
+          <ScalarProperty Name="lng" ColumnName="lng" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="id_tipo_direccion" ColumnName="id_tipo_direccion" />
+          <ScalarProperty Name="boletines" ColumnName="boletines" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios_manifiesto_menu">
+      <EntityTypeMapping TypeName="AdminModel.usuarios_manifiesto_menu">
+        <MappingFragment StoreEntitySet="usuarios_manifiesto_menu">
+          <ScalarProperty Name="estatus" ColumnName="estatus" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="action" ColumnName="action" />
+          <ScalarProperty Name="controller" ColumnName="controller" />
+          <ScalarProperty Name="opcion" ColumnName="opcion" />
+          <ScalarProperty Name="id_menu" ColumnName="id_menu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

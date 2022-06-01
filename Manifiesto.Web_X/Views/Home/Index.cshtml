@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Manifiesto.Web.Repositories.Models.empresas_model>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+<div align="center">
+<h4>Seleccioné una Empresa para Iniciar: </h4>
+</div>
+<br />
+<br />
+
+<div class="row">
+@foreach (var item in Model)
+{ 
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">    
+      <div class="caption">      
+         <h3 id="thumbnail-label">
+            <a href=@Url.Action("Principal", "Home", new { id_empresa = item.id_empresa })>@Html.DisplayFor(modelItem => item.empresa)</a>
+            <a class="anchorjs-link" href="#thumbnail-label">
+            <span class="anchorjs-icon"></span>
+            </a>
+          </h3>
+          <p>@Html.DisplayFor(modelItem => item.nombre_pais)</p>
+      </div>
+    </div>
+  </div>
+}
+</div>

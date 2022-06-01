@@ -1,0 +1,70 @@
+﻿@model Manifiesto.Web.Models.cuscar_users_VM
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Editar Permisos Usuario</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.id_usuario)
+            @Html.ValidationMessageFor(model => model.id_usuario)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nombre_usuario)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.nombre_usuario)
+        </div>
+
+       <table class="table">
+           <thead>
+            <tr>
+                <td>
+                     @Html.LabelFor(model => model.admin)
+                </td>
+                <td>
+                     @Html.LabelFor(model => model.aereo)
+                </td>
+                <td>
+                     @Html.LabelFor(model => model.marino)
+                </td>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td>
+                    @Html.EditorFor(model => model.admin)
+                    @Html.ValidationMessageFor(model => model.admin)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.aereo)
+                    @Html.ValidationMessageFor(model => model.aereo)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.marino)
+                    @Html.ValidationMessageFor(model => model.marino)
+                </td>
+            </tr>
+           </tbody>  
+        </table>
+
+        <p>
+            <input type="submit" value="Save" class="btn btn-default" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

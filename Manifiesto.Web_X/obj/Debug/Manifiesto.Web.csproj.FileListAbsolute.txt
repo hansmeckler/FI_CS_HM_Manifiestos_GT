@@ -1,0 +1,713 @@
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Admin.Entities.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\AereoEntities.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Data.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\WebGrease.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Admin.Entities.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\AereoEntities.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Data.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\inetpub\wwwroot\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Mono.Security.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\WebGrease.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\MySql.Data.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\inetpub\wwwroot\ProyectosLV\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Mono.Security.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Mono.Security.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Npgsql.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Npgsql.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Cambio de clave\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Mono.Security.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Npgsql.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Npgsql.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Nuevo formato\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\AutoMapper.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Mono.Security.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\MySql.Data.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Npgsql.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Net.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Http.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\WebGrease.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\AutoMapper.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Npgsql.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Net.Http.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\Users\GT-ST-12\Desktop\Manifiesto.Web Expresion regular con guiones (aereo localhost)\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\AutoMapper.Net4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Manifiesto.Web.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Manifiesto.Web.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Antlr3.Runtime.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\AutoMapper.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\db_aereo.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\EntityFramework.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\master-aimar.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Mono.Security.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\MySql.Data.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Newtonsoft.Json.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Npgsql.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Net.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Helpers.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Mvc.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Optimization.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.WebPages.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Unity.Mvc4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\ventas_gt.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\WebGrease.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\db_aereo.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\master-aimar.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\AutoMapper.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\EntityFramework.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Npgsql.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\Newtonsoft.Json.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Net.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Helpers.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Mvc.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.WebPages.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\de\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\es\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web Ya guarda firma aéreo falta id_status\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\AutoMapper.Net4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Manifiesto.Web.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Manifiesto.Web.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Antlr3.Runtime.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\AutoMapper.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\db_aereo.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\master-aimar.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Mono.Security.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\MySql.Data.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Newtonsoft.Json.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Helpers.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Http.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Mvc.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Optimization.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Unity.Mvc4.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\ventas_gt.Entities.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\WebGrease.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\db_aereo.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\master-aimar.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\AutoMapper.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\Newtonsoft.Json.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Helpers.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Mvc.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\de\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\es\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+E:\Backup fuentes\Manifiestos\ManifiestosWeb\Manifiesto.Web previo\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\AutoMapper.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Mono.Security.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\MySql.Data.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\WebGrease.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\AutoMapper.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\Users\cristian\Desktop\Manifiesto.Web previo\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\aimar_baw.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\AutoMapper.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Mono.Security.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\MySql.Data.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\WebGrease.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\aimar_baw.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\AutoMapper.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\Users\cristian\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\AutoMapper.Net4.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Manifiesto.Web.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Manifiesto.Web.pdb
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Antlr3.Runtime.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\AutoMapper.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\db_aereo.Entities.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\master-aimar.Entities.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Mono.Security.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\MySql.Data.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.EntityFramework.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Http.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Optimization.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Razor.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Unity.Mvc4.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\ventas_gt.Entities.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\WebGrease.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\db_aereo.Entities.pdb
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\master-aimar.Entities.pdb
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\ventas_gt.Entities.pdb
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\aimar_baw.pdb
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\AutoMapper.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Npgsql.EntityFramework.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Http.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.Razor.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\de\Npgsql.resources.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\es\Npgsql.resources.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\fi\Npgsql.resources.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\fr\Npgsql.resources.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\ja\Npgsql.resources.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\bin\zh-CN\Npgsql.resources.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\obj\Debug\Manifiesto.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\obj\Debug\Manifiesto.Web.dll
+C:\Users\Administrador\Desktop\Manifiesto.Web para cambios\Manifiesto.Web\obj\Debug\Manifiesto.Web.pdb

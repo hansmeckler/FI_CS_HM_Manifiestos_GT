@@ -1,0 +1,262 @@
+﻿@model IEnumerable<bawEntities.tbl_pais>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_iva)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_id_cobra)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_id_paga)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_recibo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_anticipo_cliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_ivapaga)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_ivacobra)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_schema)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_sv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_hn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_ni)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_cr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_pa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_bz)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_grh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_dif_cambiario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_nit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_iso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_dias_recuperacion_impuesto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_diasholgura)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_porcinteres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_lista_correos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cue_intercompany_mayanl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_retencion_momento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_imagepath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_restringido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_formas_pago)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_agente_aduanero)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_numero_identificacion_tributaria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_meses_recuperacion_impuesto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_tbi_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_cod_regimen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_nombre_sistema)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_tge_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pai_schema_apl)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_iva)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_id_cobra)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_id_paga)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_recibo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_anticipo_cliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_ivapaga)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_ivacobra)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_schema)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_sv)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_hn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_ni)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_cr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_pa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_bz)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_grh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_dif_cambiario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_nit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_iso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_dias_recuperacion_impuesto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_diasholgura)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_porcinteres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_lista_correos)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cue_intercompany_mayanl)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_retencion_momento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_imagepath)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_restringido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_direccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_formas_pago)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_agente_aduanero)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_numero_identificacion_tributaria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_meses_recuperacion_impuesto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_tbi_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_cod_regimen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_nombre_sistema)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_tge_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pai_schema_apl)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

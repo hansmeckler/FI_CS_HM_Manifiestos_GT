@@ -1,0 +1,164 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace db_aereo.Entities.Entities
+{
+    [Table("Awb")]
+    public class awb
+    {
+        [Key]
+        public int AwbID { get; set; }
+        public System.DateTime CreatedDate { get; set; }
+        public double CreatedTime { get; set; }
+        public double Expired { get; set; }
+        public string AwbNumber { get; set; }
+        public string AccountShipperNo { get; set; }
+        public string ShipperData { get; set; }
+        public string AccountConsignerNo { get; set; }
+        public string ConsignerData { get; set; }
+        public string AgentData { get; set; }
+        public string AccountInformation { get; set; }
+        public string IATANo { get; set; }
+        public string AccountAgentNo { get; set; }
+        public int AirportDepID { get; set; }
+        public string RequestedRouting { get; set; }
+        public string AirportToCode1 { get; set; }
+        public int CarrierID { get; set; }
+        public string AirportToCode2 { get; set; }
+        public string AirportToCode3 { get; set; }
+        public string CarrierCode2 { get; set; }
+        public string CarrierCode3 { get; set; }
+        public double CurrencyID { get; set; }
+        public double ChargeType { get; set; }
+        public double ValChargeType { get; set; }
+        public double OtherChargeType { get; set; }
+        public string DeclaredValue { get; set; }
+        public string AduanaValue { get; set; }
+        public int AirportDesID { get; set; }
+        public string FlightDate1 { get; set; }
+        public string FlightDate2 { get; set; }
+        public string SecuredValue { get; set; }
+        public string HandlingInformation { get; set; }
+        public string Observations { get; set; }
+        public string NoOfPieces { get; set; }
+        public string Weights { get; set; }
+        public string WeightsSymbol { get; set; }
+        public string Commodities { get; set; }
+        public string ChargeableWeights { get; set; }
+        public string CarrierRates { get; set; }
+        public string Carriersubtot { get; set; }
+        public string NatureQtyGoods { get; set; }
+        public string TotNoOfPieces { get; set; }
+        public string TotWeight { get; set; }
+        public string TotCarrierRate { get; set; }
+        public string TotChargeWeightPrepaid { get; set; }
+        public string TotChargeWeightCollect { get; set; }
+        public string TotChargeValuePrepaid { get; set; }
+        public string TotChargeValueCollect { get; set; }
+        public string TotChargeTaxPrepaid { get; set; }
+        public string TotChargeTaxCollect { get; set; }
+        public string AnotherChargesAgentPrepaid { get; set; }
+        public string AnotherChargesAgentCollect { get; set; }
+        public string AnotherChargesCarrierPrepaid { get; set; }
+        public string AnotherChargesCarrierCollect { get; set; }
+        public string TotPrepaid { get; set; }
+        public string TotCollect { get; set; }
+        public string TerminalFee { get; set; }
+        public string CustomFee { get; set; }
+        public string FuelSurcharge { get; set; }
+        public string SecurityFee { get; set; }
+        public string PBA { get; set; }
+        public string TAX { get; set; }
+        public string AdditionalChargeName1 { get; set; }
+        public string AdditionalChargeVal1 { get; set; }
+        public string AdditionalChargeName2 { get; set; }
+        public string AdditionalChargeVal2 { get; set; }
+        public string Invoice { get; set; }
+        public string ExportLic { get; set; }
+        public string AgentContactSignature { get; set; }
+        public string CommoditiesTypes { get; set; }
+        public string TotWeightChargeable { get; set; }
+        public string Instructions { get; set; }
+        public string Agentsignature { get; set; }
+        public string AdditionalChargeName3 { get; set; }
+        public string AdditionalChargeVal3 { get; set; }
+        public string AdditionalChargeName4 { get; set; }
+        public string AdditionalChargeVal4 { get; set; }
+        public string Countries { get; set; }
+        public string HAwbNumber { get; set; }
+        public string ReservationDate { get; set; }
+        public string DeliveryDate { get; set; }
+        public string DepartureDate { get; set; }
+        public string Comment { get; set; }
+        public string AdditionalChargeName5 { get; set; }
+        public string AdditionalChargeVal5 { get; set; }
+        public string AdditionalChargeName6 { get; set; }
+        public string AdditionalChargeVal6 { get; set; }
+        public string Comment2 { get; set; }
+        public string ArrivalDate { get; set; }
+        public string HDepartureDate { get; set; }
+        public string Cont { get; set; }
+        public string Destinity { get; set; }
+        public string TotalToPay { get; set; }
+        public string Concept { get; set; }
+        public string FiscalFactory { get; set; }
+        public string ArrivalAttn { get; set; }
+        public string ArrivalFlight { get; set; }
+        public string Comment3 { get; set; }
+        public Nullable<double> DisplayNumber { get; set; }
+        public string AdditionalChargeName7 { get; set; }
+        public string AdditionalChargeVal7 { get; set; }
+        public string AdditionalChargeName8 { get; set; }
+        public string AdditionalChargeVal8 { get; set; }
+        public double WType { get; set; }
+        public string AdditionalChargeName9 { get; set; }
+        public string AdditionalChargeVal9 { get; set; }
+        public string AdditionalChargeName10 { get; set; }
+        public string AdditionalChargeVal10 { get; set; }
+        public Nullable<double> ShipperID { get; set; }
+        public Nullable<double> ConsignerID { get; set; }
+        public Nullable<double> AgentID { get; set; }
+        public Nullable<double> SalespersonID { get; set; }
+        public Nullable<double> ShipperAddrID { get; set; }
+        public Nullable<double> ConsignerAddrID { get; set; }
+        public Nullable<double> AgentAddrID { get; set; }
+        public string AdditionalChargeName11 { get; set; }
+        public string AdditionalChargeVal11 { get; set; }
+        public string AdditionalChargeName12 { get; set; }
+        public string AdditionalChargeVal12 { get; set; }
+        public string AdditionalChargeName13 { get; set; }
+        public string AdditionalChargeVal13 { get; set; }
+        public string AdditionalChargeName14 { get; set; }
+        public string AdditionalChargeVal14 { get; set; }
+        public string AdditionalChargeName15 { get; set; }
+        public string AdditionalChargeVal15 { get; set; }
+        public Nullable<double> Voyage { get; set; }
+        public string PickUp { get; set; }
+        public string Intermodal { get; set; }
+        public string SedFilingFee { get; set; }
+        public Nullable<double> RoutingID { get; set; }
+        public string Routing { get; set; }
+        public string ManifestNumber { get; set; }
+        public Nullable<double> CalcAdminFee { get; set; }
+        public System.DateTime AWBDate { get; set; }
+        public string CTX { get; set; }
+        public Nullable<double> TCTX { get; set; }
+        public Nullable<double> TPTX { get; set; }
+        public Nullable<double> UserID { get; set; }
+        public Nullable<double> Closed { get; set; }
+        public Nullable<double> MAWBID { get; set; }
+        public long rep_exp { get; set; }
+        public Nullable<double> ConsignerColoader { get; set; }
+        public Nullable<double> ShipperColoader { get; set; }
+        public Nullable<double> AgentNeutral { get; set; }
+        public string ManifestNo { get; set; }
+        public string MonitorArrivalDate { get; set; }
+        public Nullable<double> ClientCollectID { get; set; }
+        public string ClientsCollect { get; set; }
+        public Nullable<double> id_coloader { get; set; }
+    }
+}

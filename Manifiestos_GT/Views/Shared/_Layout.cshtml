@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="@Url.Content("~/Content/kendo/2014.2.903/kendo.common.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/kendo/2014.2.903/kendo.mobile.all.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/kendo/2014.2.903/kendo.dataviz.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/kendo/2014.2.903/kendo.bootstrap.min.css")" rel="stylesheet" type="text/css" />
+
+    <link href="@Url.Content("~/Content/navbar.css")" rel="stylesheet" type="text/css" />
+
+    <link href="@Url.Content("~/Content/kendo/2014.2.903/kendo.dataviz.default.min.css")" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="@Url.Content("~/Scripts/kendo/2014.2.903/jquery.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/kendo/2014.2.903/kendo.all.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/kendo/2014.2.903/kendo.aspnetmvc.min.js")"></script>
+
+    <script src="@Url.Content("~/Scripts/dataTables/jquery.dataTables.js")"></script>
+    <script src="@Url.Content("~/Scripts/dataTables/dataTables.bootstrap.js")"></script>
+
+    <script src="@Url.Content("~/Scripts/navbar.js")"></script>
+
+    @Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.min.js")
+</head>
+<body>                
+       
+ @Html.Action("Navbar", "Navbar", new { id_empresa = this.Session["id_empresa"], area = "" })
+    <div class="container body-content">
+    <h1>@Html.Action("Titulo", "Home", new { id_empresa = HttpContext.Current.Session["id_empresa"], area = "" })</h1>                  
+     @RenderSection("featured", required: false)
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

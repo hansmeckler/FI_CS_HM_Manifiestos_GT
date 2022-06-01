@@ -1,0 +1,385 @@
+﻿@model Manifiesto.Web.Areas.Aereo.Models.ManifiestoViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+     #head {
+        font-size: 10.5px;
+    }
+     #head thead th {
+      background-color: #006DCC;
+      color: white;
+    }
+    #head th {
+        text-align: center;
+    }
+    .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td 
+    {
+        padding: 5px;    
+    }
+</style>
+
+<script>
+
+    function success(response, data) {
+        
+        //alert("order #:" + response.ID + "has a new status: " + response.status);
+        alert(response.status);
+    }
+
+
+    var showProgress = false;
+    function AjaxBegin() {
+        /*
+        showProgress = true;
+        setTimeout("if (showProgress) { $('#progress').show(); }", 800);
+        alert("Inicia");
+        */
+    }
+
+
+    function AjaxComplete() {
+        /*
+        showProgress = false;
+        $("#progress").hide();
+        alert("Termina");
+        */
+    }
+
+    function AjaxFailure() {
+        alert("Error");
+    }
+</script>
+
+<br />
+
+<div id="indicator" class="progress" style="display:none">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Manifiesto Imp.", "Index", "GuiasImport")
+            </th>
+            <th>
+                @Html.ActionLink("Manifiesto Exp.", "Index", "GuiasExport")
+            </th>
+             <th>
+                @Html.ActionLink("Manifiesto Courrier", "Index", "Courrier")
+            </th>
+            <th>
+                @Html.ActionLink("List", "Index", "Manifiesto")
+            </th>
+            <th>
+                @Html.ActionLink("Hist", "Index", "Manifiesto")
+            </th>
+            <th>
+                <a href="https://www.manifiestosguate.com/envio/" target="popup">Enviar a SAT</a>
+            </th>
+        </tr>
+    </thead>
+</table>
+
+<h3>Manifiesto No. @Html.DisplayFor(model => model.manifiesto_enc.id)</h3>
+
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+<table class="table table-bordered" id="head">
+    <thead>
+        <tr>
+            <th>
+                Pieces
+            </th>
+            <th>
+                Weight
+            </th>
+            <th>
+                Valor
+            </th>
+            <th>
+                BLs
+            </th>
+            <th>
+                AWB
+            </th>
+            <th>
+                Cuscar
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                 @Html.DisplayFor(model => model.no_piezas)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.peso)
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+             @(Html.Kendo().DropDownList()
+                  .Name("viajes")
+                  .HtmlAttributes(new { style = "width: 120px" })
+                  .DataTextField("no_viaje")
+                  .DataValueField("id")
+                  .DataSource(source =>
+                  {
+                      source.Read(read =>
+                      {
+                          read.Action("Viajes_List", "Manifiesto");
+                      });
+                  })
+            )
+            </td>
+            <td>
+             @(Html.Kendo().DropDownList()
+                  .Name("cuscar")
+                  .HtmlAttributes(new { style = "width: 120px" })
+                  .DataTextField("cuscar")
+                  .DataValueField("mn_id")
+                  .DataSource(source =>
+                  {
+                      source.Read(read =>
+                      {
+                          read.Action("Cuscar_List", "Manifiesto");
+                      });
+                  })
+            )
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="table table-bordered" id="head">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.manifiesto_enc.no_viaje)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.naviera)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.vapor)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.fecha_arribo)
+            </th>
+             <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.puerto_origen)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.puerto_desembarque)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.mtype)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.mfunction)
+            </th>
+            <th>Upd</th>
+            <th>Archive</th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.manifest)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.original)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.manifiesto_enc.no_viaje)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.naviera)
+            </td>
+             <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.vapor)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.fecha_arribo)
+            </td>
+             <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.puerto_origen)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.puerto_desembarque)
+            </td>
+            <td>
+                 @(Html.Kendo().DropDownList()
+                      .Name("Type")
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Manifest",
+                              Value = "785"
+                          },
+                          new SelectListItem() {
+                              Text = "Awnser",
+                              Value = "632"
+                          },
+                      }).Value(Model.manifiesto_enc.mtype.ToString())
+                )
+            </td>
+            <td>
+                 @(Html.Kendo().DropDownList()
+                      .Name("FuncCuscar")
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Original",
+                              Value = "9"
+                          },
+                          new SelectListItem() {
+                              Text = "Add BL",
+                              Value = "2"
+                          },
+                           new SelectListItem() {
+                              Text = "Elim BL",
+                              Value = "3"
+                          },
+                           new SelectListItem() {
+                              Text = "Repl BL",
+                              Value = "20"
+                          },
+                           new SelectListItem() {
+                              Text = "Canc Man",
+                              Value = "1"
+                          },
+                           new SelectListItem() {
+                              Text = "Add BL CI/CS",
+                              Value = "13"
+                          },
+                           new SelectListItem() {
+                              Text = "Elim BL CI/CS",
+                              Value = "40"
+                          },
+                           new SelectListItem() {
+                              Text = "Repl BL CI/CSAwnser",
+                              Value = "36"
+                          },
+                           new SelectListItem() {
+                              Text = "Canc Man CI/CS",
+                              Value = "10"
+                          }
+                      }).Value(Model.manifiesto_enc.mfunction.ToString())
+                )
+            </td>
+            <td>
+                <input type="submit" value="Save" />
+            </td>
+            @{
+                if (Model.manifiesto_enc.manifest == "NA")
+                {
+                 
+                   @:<td>@Ajax.ActionLink("Set to pending", "CreateFileTxt", "GenerationFiles", new { id = Model.manifiesto_enc.id }, new AjaxOptions { HttpMethod = "POST", OnSuccess = "success", OnBegin = "AjaxBegin", OnComplete = "AjaxComplete", OnFailure = "AjaxFailure", LoadingElementId = "indicator" })
+                    if (Model.manifiesto_enc.original != "NA")
+                    {
+                     @Html.ActionLink("Fix", "Update", "ManifestText", new { id = "", fix = 1, area = "" }, null)
+                    }
+                    @:</td>
+                }
+                else
+                {                    
+                    <td>
+                         <a href=files/@Model.manifiesto_enc.cuscar target="popup">@Model.manifiesto_enc.cuscar</a>
+                         @Html.ActionLink("DL", "Download", "ManifestText", new { id = Model.manifiesto_enc.cuscar, area = "" }, null)
+                    </td>
+                }   
+             }
+            <td>
+                @Html.DisplayFor(model => model.manifiesto_enc.manifest)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.manifiesto_enc.original)
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="table table-striped" id="head">
+
+     <thead>
+        <tr>
+            <th>
+                HAWB
+            </th>
+            <th>
+                Shipper
+            </th>
+            <th>
+                Client
+            </th>
+            <th>
+                Pcs
+            </th>
+            <th>
+                Wt
+            </th>
+            <th>
+                Freight
+            </th>
+            <th>
+                 Arancel
+            </th>
+            <th>
+                Commodity
+            </th>
+        </tr>
+    </thead>
+@foreach (var item in Model.manifiesto_det)
+{
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.no_bl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.shipper)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.no_piezas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.volumen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vc_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.comodity)
+            </td>
+        </tr>
+    </tbody>
+}
+</table>
+    
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

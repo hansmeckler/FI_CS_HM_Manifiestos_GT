@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AdminModel.Store" Alias="Self" Provider="Devart.Data.PostgreSql" ProviderManifestToken="PostgreSQL, 9.1.2" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="AdminModelStoreContainer">
+          <EntitySet Name="aausers" EntityType="AdminModel.Store.aausers" store:Type="Tables" Schema="public" />
+          <EntitySet Name="clientes" EntityType="AdminModel.Store.clientes" store:Type="Tables" Schema="public" />
+          <EntitySet Name="direcciones" EntityType="AdminModel.Store.direcciones" store:Type="Tables" Schema="public" />
+          <EntitySet Name="usuarios_manifiesto_menu" EntityType="AdminModel.Store.usuarios_manifiesto_menu" store:Type="Tables" Schema="public" />
+          <AssociationSet Name="fk_cliente_dir2" Association="AdminModel.Store.fk_cliente_dir2">
+            <End Role="clientes" EntitySet="clientes" />
+            <End Role="direcciones" EntitySet="direcciones" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="aausers">
+          <Key>
+            <PropertyRef Name="userid" />
+          </Key>
+          <Property Name="userid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="varchar" />
+          <Property Name="password" Type="varchar" />
+          <Property Name="firstname" Type="varchar" />
+          <Property Name="lastname" Type="varchar" />
+          <Property Name="admin" Type="boolean" />
+          <Property Name="aereo" Type="boolean" />
+          <Property Name="marino" Type="boolean" />
+        </EntityType>
+        <EntityType Name="clientes">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="codigo_tributario" Type="varchar" MaxLength="30" />
+          <Property Name="nombre_cliente" Type="varchar" MaxLength="150" />
+          <Property Name="nombre_facturar" Type="varchar" MaxLength="150" />
+          <Property Name="id_vendedor" Type="bigint" />
+          <Property Name="id_tipo_cliente" Type="int" />
+          <Property Name="id_grupo" Type="int" />
+          <Property Name="id_cobrador" Type="int" />
+          <Property Name="id_estatus" Type="int" />
+          <Property Name="es_consigneer" Type="boolean" />
+          <Property Name="es_shipper" Type="boolean" />
+          <Property Name="id_frecuencia" Type="int" />
+          <Property Name="id_credito" Type="int" />
+          <Property Name="fecha_creacion" Type="date" />
+          <Property Name="hora_creacion" Type="double precision" />
+          <Property Name="id_clase" Type="varchar" MaxLength="2" />
+          <Property Name="id_anterior" Type="bigint" />
+          <Property Name="id_usuario_creacion" Type="bigint" />
+          <Property Name="fecha_uvisita" Type="date" />
+          <Property Name="usr" Type="varchar" MaxLength="40" />
+          <Property Name="pwd" Type="varchar" MaxLength="35" />
+          <Property Name="id_sales_support" Type="bigint" />
+          <Property Name="ultima_fecha_descarga" Type="date" />
+          <Property Name="encuesta_id" Type="int" />
+          <Property Name="encuesta" Type="int" />
+          <Property Name="id_pais" Type="varchar" MaxLength="2" />
+          <Property Name="id_regimen" Type="smallint" />
+          <Property Name="codigo_tributario2" Type="varchar" MaxLength="20" />
+          <Property Name="observacion" Type="varchar" />
+          <Property Name="id_usuario_modificacion" Type="bigint" />
+          <Property Name="fecha_modificacion" Type="timestamp" />
+          <Property Name="ultimo_tipo_movimiento" Type="bigint" />
+          <Property Name="ultimo_movimiento_asegurado" Type="boolean" />
+          <Property Name="requiere_rubro_alias" Type="int" />
+          <Property Name="id_vendedor_grh" Type="bigint" />
+          <Property Name="id_sales_support_grh" Type="bigint" />
+          <Property Name="ref_interna_pricing" Type="varchar" MaxLength="50" />
+          <Property Name="con_cotizacion" Type="boolean" />
+          <Property Name="marca" Type="int" />
+          <Property Name="email" Type="varchar" MaxLength="80" />
+          <Property Name="es_coloader" Type="boolean" />
+          <Property Name="incluir_saldo" Type="boolean" />
+        </EntityType>
+        <EntityType Name="direcciones">
+          <Key>
+            <PropertyRef Name="id_direccion" />
+          </Key>
+          <Property Name="id_direccion" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="id_nivel_geografico" Type="bigint" />
+          <Property Name="direccion_completa" Type="varchar" MaxLength="250" />
+          <Property Name="id_cliente" Type="bigint" />
+          <Property Name="address" Type="varchar" MaxLength="250" />
+          <Property Name="city" Type="varchar" MaxLength="35" />
+          <Property Name="state" Type="varchar" MaxLength="35" />
+          <Property Name="zipcode" Type="varchar" MaxLength="35" />
+          <Property Name="name" Type="varchar" MaxLength="65" />
+          <Property Name="phone number" Type="varchar" MaxLength="100" />
+          <Property Name="group" Type="varchar" MaxLength="35" />
+          <Property Name="url" Type="varchar" MaxLength="150" />
+          <Property Name="image" Type="varchar" MaxLength="100" />
+          <Property Name="lat" Type="real" />
+          <Property Name="lng" Type="real" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="id_tipo_direccion" Type="int" Nullable="false" />
+          <Property Name="boletines" Type="boolean" />
+          <Property Name="activo" Type="boolean" />
+        </EntityType>
+        <EntityType Name="usuarios_manifiesto_menu">
+          <Key>
+            <PropertyRef Name="id_menu" />
+          </Key>
+          <Property Name="id_menu" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="opcion" Type="varchar" />
+          <Property Name="controller" Type="varchar" />
+          <Property Name="action" Type="varchar" />
+          <Property Name="area" Type="varchar" />
+          <Property Name="estatus" Type="boolean" />
+        </EntityType>
+        <Association Name="fk_cliente_dir2">
+          <End Role="clientes" Type="AdminModel.Store.clientes" Multiplicity="0..1" />
+          <End Role="direcciones" Type="AdminModel.Store.direcciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="clientes">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="direcciones">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AdminModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="db_AdminEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="aausers" EntityType="AdminModel.aausers" />
+          <EntitySet Name="clientes" EntityType="AdminModel.clientes" />
+          <EntitySet Name="direcciones" EntityType="AdminModel.direcciones" />
+          <AssociationSet Name="fk_cliente_dir2" Association="AdminModel.fk_cliente_dir2">
+            <End Role="clientes" EntitySet="clientes" />
+            <End Role="direcciones" EntitySet="direcciones" />
+          </AssociationSet>
+          <EntitySet Name="usuarios_manifiesto_menu" EntityType="AdminModel.usuarios_manifiesto_menu" />
+        </EntityContainer>
+        <EntityType Name="aausers">
+          <Key>
+            <PropertyRef Name="userid" />
+          </Key>
+          <Property Name="userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+          <Property Name="password" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+          <Property Name="firstname" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+          <Property Name="lastname" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+          <Property Name="admin" Type="Boolean" />
+          <Property Name="aereo" Type="Boolean" />
+          <Property Name="marino" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="clientes">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="codigo_tributario" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="nombre_cliente" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="nombre_facturar" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="id_vendedor" Type="Int64" />
+          <Property Name="id_tipo_cliente" Type="Int32" />
+          <Property Name="id_grupo" Type="Int32" />
+          <Property Name="id_cobrador" Type="Int32" />
+          <Property Name="id_estatus" Type="Int32" />
+          <Property Name="es_consigneer" Type="Boolean" />
+          <Property Name="es_shipper" Type="Boolean" />
+          <Property Name="id_frecuencia" Type="Int32" />
+          <Property Name="id_credito" Type="Int32" />
+          <Property Name="fecha_creacion" Type="DateTime" />
+          <Property Name="hora_creacion" Type="Double" />
+          <Property Name="id_clase" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+          <Property Name="id_anterior" Type="Int64" />
+          <Property Name="id_usuario_creacion" Type="Int64" />
+          <Property Name="fecha_uvisita" Type="DateTime" />
+          <Property Name="usr" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+          <Property Name="pwd" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+          <Property Name="id_sales_support" Type="Int64" />
+          <Property Name="ultima_fecha_descarga" Type="DateTime" />
+          <Property Name="encuesta_id" Type="Int32" />
+          <Property Name="encuesta" Type="Int32" />
+          <Property Name="id_pais" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+          <Property Name="id_regimen" Type="Int16" />
+          <Property Name="codigo_tributario2" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="observacion" Type="String" MaxLength="65535" Unicode="true" FixedLength="false" />
+          <Property Name="id_usuario_modificacion" Type="Int64" />
+          <Property Name="fecha_modificacion" Type="DateTime" />
+          <Property Name="ultimo_tipo_movimiento" Type="Int64" />
+          <Property Name="ultimo_movimiento_asegurado" Type="Boolean" />
+          <Property Name="requiere_rubro_alias" Type="Int32" />
+          <Property Name="id_vendedor_grh" Type="Int64" />
+          <Property Name="id_sales_support_grh" Type="Int64" />
+          <Property Name="ref_interna_pricing" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="con_cotizacion" Type="Boolean" />
+          <Property Name="marca" Type="Int32" />
+          <Property Name="email" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+          <Property Name="es_coloader" Type="Boolean" />
+          <Property Name="incluir_saldo" Type="Boolean" />
+          <NavigationProperty Name="direcciones" Relationship="AdminModel.fk_cliente_dir2" FromRole="clientes" ToRole="direcciones" />
+        </EntityType>
+        <EntityType Name="direcciones">
+          <Key>
+            <PropertyRef Name="id_direccion" />
+          </Key>
+          <Property Name="id_direccion" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_nivel_geografico" Type="Int64" />
+          <Property Name="direccion_completa" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="id_cliente" Type="Int64" />
+          <Property Name="address" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="city" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+          <Property Name="state" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+          <Property Name="zipcode" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+          <Property Name="name" Type="String" MaxLength="65" Unicode="true" FixedLength="false" />
+          <Property Name="phone_number" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="group" Type="String" MaxLength="35" Unicode="true" FixedLength="false" />
+          <Property Name="url" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="image" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="lat" Type="Single" />
+          <Property Name="lng" Type="Single" />
+          <Property Name="email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="id_tipo_direccion" Type="Int32" Nullable="false" />
+          <Property Name="boletines" Type="Boolean" />
+          <Property Name="activo" Type="Boolean" />
+          <NavigationProperty Name="clientes" Relationship="AdminModel.fk_cliente_dir2" FromRole="direcciones" ToRole="clientes" />
+        </EntityType>
+        <Association Name="fk_cliente_dir2">
+          <End Role="clientes" Type="AdminModel.clientes" Multiplicity="0..1" />
+          <End Role="direcciones" Type="AdminModel.direcciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="clientes">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="direcciones">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="usuarios_manifiesto_menu">
+          <Key>
+            <PropertyRef Name="id_menu" />
+          </Key>
+          <Property Type="Int32" Name="id_menu" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="opcion" MaxLength="65535" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="controller" MaxLength="65535" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="action" MaxLength="65535" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="area" MaxLength="65535" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="estatus" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AdminModelStoreContainer" CdmEntityContainer="db_AdminEntities">
+          <EntitySetMapping Name="aausers"><EntityTypeMapping TypeName="AdminModel.aausers"><MappingFragment StoreEntitySet="aausers">
+            <ScalarProperty Name="userid" ColumnName="userid" />
+            <ScalarProperty Name="username" ColumnName="username" />
+            <ScalarProperty Name="password" ColumnName="password" />
+            <ScalarProperty Name="firstname" ColumnName="firstname" />
+            <ScalarProperty Name="lastname" ColumnName="lastname" />
+            <ScalarProperty Name="admin" ColumnName="admin" />
+            <ScalarProperty Name="aereo" ColumnName="aereo" />
+            <ScalarProperty Name="marino" ColumnName="marino" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="clientes"><EntityTypeMapping TypeName="AdminModel.clientes"><MappingFragment StoreEntitySet="clientes">
+            <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+            <ScalarProperty Name="codigo_tributario" ColumnName="codigo_tributario" />
+            <ScalarProperty Name="nombre_cliente" ColumnName="nombre_cliente" />
+            <ScalarProperty Name="nombre_facturar" ColumnName="nombre_facturar" />
+            <ScalarProperty Name="id_vendedor" ColumnName="id_vendedor" />
+            <ScalarProperty Name="id_tipo_cliente" ColumnName="id_tipo_cliente" />
+            <ScalarProperty Name="id_grupo" ColumnName="id_grupo" />
+            <ScalarProperty Name="id_cobrador" ColumnName="id_cobrador" />
+            <ScalarProperty Name="id_estatus" ColumnName="id_estatus" />
+            <ScalarProperty Name="es_consigneer" ColumnName="es_consigneer" />
+            <ScalarProperty Name="es_shipper" ColumnName="es_shipper" />
+            <ScalarProperty Name="id_frecuencia" ColumnName="id_frecuencia" />
+            <ScalarProperty Name="id_credito" ColumnName="id_credito" />
+            <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+            <ScalarProperty Name="hora_creacion" ColumnName="hora_creacion" />
+            <ScalarProperty Name="id_clase" ColumnName="id_clase" />
+            <ScalarProperty Name="id_anterior" ColumnName="id_anterior" />
+            <ScalarProperty Name="id_usuario_creacion" ColumnName="id_usuario_creacion" />
+            <ScalarProperty Name="fecha_uvisita" ColumnName="fecha_uvisita" />
+            <ScalarProperty Name="usr" ColumnName="usr" />
+            <ScalarProperty Name="pwd" ColumnName="pwd" />
+            <ScalarProperty Name="id_sales_support" ColumnName="id_sales_support" />
+            <ScalarProperty Name="ultima_fecha_descarga" ColumnName="ultima_fecha_descarga" />
+            <ScalarProperty Name="encuesta_id" ColumnName="encuesta_id" />
+            <ScalarProperty Name="encuesta" ColumnName="encuesta" />
+            <ScalarProperty Name="id_pais" ColumnName="id_pais" />
+            <ScalarProperty Name="id_regimen" ColumnName="id_regimen" />
+            <ScalarProperty Name="codigo_tributario2" ColumnName="codigo_tributario2" />
+            <ScalarProperty Name="observacion" ColumnName="observacion" />
+            <ScalarProperty Name="id_usuario_modificacion" ColumnName="id_usuario_modificacion" />
+            <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+            <ScalarProperty Name="ultimo_tipo_movimiento" ColumnName="ultimo_tipo_movimiento" />
+            <ScalarProperty Name="ultimo_movimiento_asegurado" ColumnName="ultimo_movimiento_asegurado" />
+            <ScalarProperty Name="requiere_rubro_alias" ColumnName="requiere_rubro_alias" />
+            <ScalarProperty Name="id_vendedor_grh" ColumnName="id_vendedor_grh" />
+            <ScalarProperty Name="id_sales_support_grh" ColumnName="id_sales_support_grh" />
+            <ScalarProperty Name="ref_interna_pricing" ColumnName="ref_interna_pricing" />
+            <ScalarProperty Name="con_cotizacion" ColumnName="con_cotizacion" />
+            <ScalarProperty Name="marca" ColumnName="marca" />
+            <ScalarProperty Name="email" ColumnName="email" />
+            <ScalarProperty Name="es_coloader" ColumnName="es_coloader" />
+            <ScalarProperty Name="incluir_saldo" ColumnName="incluir_saldo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="direcciones"><EntityTypeMapping TypeName="AdminModel.direcciones"><MappingFragment StoreEntitySet="direcciones">
+            <ScalarProperty Name="id_direccion" ColumnName="id_direccion" />
+            <ScalarProperty Name="id_nivel_geografico" ColumnName="id_nivel_geografico" />
+            <ScalarProperty Name="direccion_completa" ColumnName="direccion_completa" />
+            <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+            <ScalarProperty Name="address" ColumnName="address" />
+            <ScalarProperty Name="city" ColumnName="city" />
+            <ScalarProperty Name="state" ColumnName="state" />
+            <ScalarProperty Name="zipcode" ColumnName="zipcode" />
+            <ScalarProperty Name="name" ColumnName="name" />
+            <ScalarProperty Name="phone_number" ColumnName="phone number" />
+            <ScalarProperty Name="group" ColumnName="group" />
+            <ScalarProperty Name="url" ColumnName="url" />
+            <ScalarProperty Name="image" ColumnName="image" />
+            <ScalarProperty Name="lat" ColumnName="lat" />
+            <ScalarProperty Name="lng" ColumnName="lng" />
+            <ScalarProperty Name="email" ColumnName="email" />
+            <ScalarProperty Name="id_tipo_direccion" ColumnName="id_tipo_direccion" />
+            <ScalarProperty Name="boletines" ColumnName="boletines" />
+            <ScalarProperty Name="activo" ColumnName="activo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="usuarios_manifiesto_menu">
+            <EntityTypeMapping TypeName="AdminModel.usuarios_manifiesto_menu">
+              <MappingFragment StoreEntitySet="usuarios_manifiesto_menu">
+                <ScalarProperty Name="estatus" ColumnName="estatus" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="action" ColumnName="action" />
+                <ScalarProperty Name="controller" ColumnName="controller" />
+                <ScalarProperty Name="opcion" ColumnName="opcion" />
+                <ScalarProperty Name="id_menu" ColumnName="id_menu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="AdminModel" ZoomLevel="32">
+        <EntityTypeShape EntityType="AdminModel.aausers" Width="1.5" PointX="5.75" PointY="0.75" Height="2.5571907552083335" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdminModel.clientes" Width="1.5" PointX="0.75" PointY="1.25" Height="9.2877408854166656" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdminModel.direcciones" Width="1.5" PointX="3" PointY="3.5" Height="4.8648079427083335" IsExpanded="true" />
+        <AssociationConnector Association="AdminModel.fk_cliente_dir2" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="5.9324039713541667" />
+          <ConnectorPoint PointX="3" PointY="5.9324039713541667" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="AdminModel.usuarios_manifiesto_menu" Width="1.5" PointX="5.375" PointY="4.75" Height="2.1725878906249996" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,1039 @@
+﻿@model Manifiesto.Web.Areas.Maritimo.Models.manifestViewModelFCL
+
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+     #head {
+        font-size: 10.5px;
+    }
+     #head thead th {
+      background-color: #006DCC;
+      color: white;
+      text-align: center;
+    }
+    
+    #head2 {
+        font-size: 10.5px;
+    }
+    
+    #head2 thead th {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+    }
+    
+    #head3 {
+        font-size: 11.5px;
+    }
+     #head3 thead th {
+      background-color: #27ae60;
+      color: white;
+      text-align: center;
+    }
+    
+    #head tbody td {
+      text-align: center;
+    }
+    
+    #head2 tbody td {
+      text-align: center;
+    }
+    
+    #head3 tbody td {
+      text-align: center;
+    }
+    
+    
+    #head th {
+        text-align: center;
+    }
+    .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td 
+    {
+        padding: 5px;    
+    }
+    
+    .form-control {
+        border-radius: 3px;
+        font-size: 12px;
+        height: 30px;
+        line-height: 1.5;
+        padding: 5px 10px;
+    }
+    
+    .k-grid {
+        font-size: 10px;
+    }
+    
+    .k-ff input.k-textbox {
+        height: 1.9em;
+        width: 10em;
+    }
+    
+    .box-col {
+       padding: 10px 1em 1em;
+    }
+    
+    .box-col label {
+        display: inline-block;
+        width: 95px;
+    }
+    
+    .box ul:not(.km-widget) li, .demo-section .box-col ul:not(.km-widget) li {
+        line-height: 3em;
+    }
+    
+    body, h1, h2, h3, h4, p, ul, li, a, button, .main-nav, .kendo-nav, #banner p, .browsers, #nav-pager, #examples-list {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+
+@(Html.Kendo().Notification()
+    .Name("notification")
+    .Position(p => p.Pinned(true).Top(30).Right(30))
+    .Stacking(NotificationStackingSettings.Down)
+    .AutoHideAfter(5000)
+    .Templates(t =>
+    {
+        t.Add().Type("error").ClientTemplateID("errorTemplate");
+        t.Add().Type("upload-success").ClientTemplateID("successTemplate");
+    })
+)
+
+
+<center>
+<div id="indicator" class="k-overlay" style="display: none; z-index: 10002; opacity: 0.5;">
+
+@(Html.Kendo().ProgressBar()
+        .Name("progressBar")
+        .HtmlAttributes(new { style = "top: 290px" })
+        .Min(0)
+        .Max(100)
+        .Type(ProgressBarType.Value)
+        .Animation(a => a.Duration(400))
+)
+</div>
+</center>
+
+
+@(Html.Kendo().Window()
+    .Name("window")
+    .Title("Cerrar Manifiesto")
+    .Content(@<text>
+        <form action=@Url.Action("CloseManifestFCL", "Manifest") method="POST">     
+        <label>Ingresar Firma</label>
+         <input id="cuscar_viaje_id" name="cuscar_viaje_id" type="hidden" value=@Html.DisplayFor(modelItem => Model.cuscar_viaje_info.cuscar_viaje_id)>
+        <textarea name="firma" class="form-control" rows="4" cols="70"></textarea><br />
+        <button id="btn_submit2" class="btn btn-primary" type="submit">Aceptar</button>
+        </form>
+    </text>)
+    .Draggable()
+    .Resizable()
+    .Width(400)
+    .Visible(false)
+    .Actions(actions => actions.Pin().Minimize().Maximize().Close())
+    .Events(ev => ev.Close("onClose"))
+)
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Listado BLs", "Index", "Trafico")
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>
+                @Html.ActionLink("Listado Cuscar Creados", "Index", "Manifest")
+            </th>
+            <th>
+                <a href="https://www.manifiestosguate.com/envio/" target="popup">Enviar a SAT</a>
+            </th>
+        </tr>
+    </thead>
+</table>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+               Manifiesto No. @Html.DisplayFor(model => model.cuscar_viaje_info.cuscar_viaje_id) - @Html.DisplayFor(model => model.import_export)
+            </div>
+
+<div class="panel-body">
+
+<table width="100%">
+    <tr>
+        <td>
+            <h3>Manifiesto No. @Html.DisplayFor(model => model.cuscar_viaje_info.cuscar_viaje_id) - @Html.DisplayFor(model => model.import_export)</h3>
+        </td>
+        <td align="right">
+            @{
+                if (Model.cuscar_container_info.Select(a => a.id_status).FirstOrDefault() != 0)
+                {
+                    if (Model.cuscar_container_info.Select(a => a.original).FirstOrDefault() != "NA")
+                    {
+                        <button type="button" class="btn btn-danger" id="close">Cerrar</button>
+                    }
+                }
+             }
+        </td>
+    </tr>
+</table>
+
+<br />
+<table class="table table-hover" id="head3">
+    <thead>
+        <tr>
+            <th>Voyage</th>
+            <th>Ship Co</th>
+            <th>Ship</th>
+            <th>Depart</th>
+            <th>Arrive</th>
+            <th>Arrive Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.cuscar_viaje_info.no_viaje)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.cuscar_viaje_info.naviera)
+            </td>
+             <td>
+                @Html.DisplayFor(model => model.cuscar_viaje_info.vapor)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.cuscar_viaje_info.puerto_origen)
+            </td>
+             <td>
+                @Html.DisplayFor(model => model.cuscar_viaje_info.puerto_desembarque)
+            </td>
+            <td>
+               @Html.DisplayFor(model => model.cuscar_viaje_info.fecha_arribo)
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table class="table table-hover" id="head">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Bill of Landing</th>
+            <th>MBL</th>
+            <th>Load</th>
+            <th>Fin</th>
+            <th>Codigo Tributario</th>
+            <th>Client</th>
+            <th>Address</th>
+            <th>Shipper</th>
+            <th>Tipo Documento</th>
+            <th>Flete</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+
+@foreach (var item2 in Model.cuscar_bl_info)
+{
+    using (Html.BeginForm("UpdateManifestFCL", "Manifest", FormMethod.Post))
+    {  
+    <tbody>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                @Html.HiddenFor(modelItem => item2.cuscar_bl_id)
+                @Html.HiddenFor(modelItem => item2.cuscar_viaje_id)
+                @Html.TextBoxFor(modelItem => item2.no_bl, new { @class = "form-control" })
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item2.mbl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item2.puerto_embarque)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item2.destino_final)
+            </td>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item2.codigo_tributario, new { @class = "form-control" })
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item2.cliente, 4, 55, new { @class = "form-control" })
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item2.direccion_cliente, 4, 55, new { @class = "form-control" })
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item2.shipper, 4, 55, new { @class = "form-control" })
+            </td>
+            <td>
+            @{
+        List<SelectListItem> listItems = new List<SelectListItem>();
+        listItems.Add(new SelectListItem
+        {
+            Text = "NIT",
+            Value = "1"
+        });
+        listItems.Add(new SelectListItem
+        {
+            Text = "AAO",
+            Value = "2"
+        });
+        listItems.Add(new SelectListItem
+        {
+            Text = "EEE",
+            Value = "3"
+        });
+        listItems.Add(new SelectListItem
+        {
+            Text = "NTG",
+            Value = "4"
+        });
+            }
+
+            @Html.DropDownListFor(modelItem => item2.tipo_docto.Value, new SelectList(listItems, "Value", "Text", item2.tipo_docto.Value), "-- Select --", new { style = "width:60px" })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item2.flete)
+            </td>
+            <td>
+                @*@Html.CheckBoxFor(modelItem => item2.selected2)*@
+                @Html.CheckBoxFor(modelItem => item2.selected2, new { onclick = "this.form.submit();" })
+            </td>
+            <td>
+                <button id="btn_submit" class="btn btn-primary btn-xs" type="submit">Update</button>
+            </td>
+        </tr>
+    </tbody>
+    }
+}
+</table>
+
+<br />
+@using (Ajax.BeginForm("Index", "CuscarPreview", new AjaxOptions()
+{
+    OnSuccess = "success",
+    OnBegin = "AjaxBegin",
+    OnComplete = "AjaxComplete",
+    OnFailure = "AjaxFailure",
+    LoadingElementId = "indicator"
+}))
+{
+    var container_info = Model.cuscar_container_info.FirstOrDefault();
+    @Html.HiddenFor(model => model.cuscar_viaje_info.cuscar_viaje_id)
+    @Html.HiddenFor(model => container_info.cuscar_container_id)
+<table class="table table-hover" id="head">
+
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Function</th>
+            <th>Operation</th>
+            <th>Sender</th>
+            <th>Archive</th>
+            <th>Manifest</th>
+            <th>Original</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            @if (Model.cuscar_container_info.Select(a => a.id_status).FirstOrDefault() != 0)
+            {
+            <td>
+               @(Html.Kendo().DropDownListFor(modelItem => container_info.mtype)
+                      .Name("type" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Manifest",
+                              Value = "785"
+                          },
+                          new SelectListItem() {
+                              Text = "Anwser",
+                              Value = "632"
+                          }
+                      })
+                    .Value(container_info.mtype.ToString())
+                )
+            </td>
+            <td>
+                @(Html.Kendo().DropDownListFor(modelItem => container_info.mfunction)
+                  .Name("function" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Orig",
+                              Value = "9"
+                          },
+                          new SelectListItem() {
+                              Text = "Repl",
+                              Value = "20"
+                          },
+                          new SelectListItem() {
+                              Text = "+ BL",
+                              Value = "2"
+                          },
+                          new SelectListItem() {
+                              Text = "- BL",
+                              Value = "3"
+                          },
+                          new SelectListItem() {
+                              Text = "Canc",
+                              Value = "1"
+                          }
+                      })
+                        .Value(container_info.mfunction.ToString())
+                )
+            </td>
+            <td>
+                @(Html.Kendo().DropDownListFor(modelItem => container_info.operation)
+                      .Name("operation" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Import",
+                              Value = "23"
+                          },
+                          new SelectListItem() {
+                              Text = "Export",
+                              Value = "22"
+                          },
+                          new SelectListItem() {
+                              Text = "Transito",
+                              Value = "24"
+                          }
+                      })
+                      .Value(container_info.operation.ToString())
+                )
+            </td>
+            <td>
+               @(Html.Kendo().DropDownListFor(modelItem => container_info.funcsend)
+                      .Name("sender" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "DC",
+                              Value = "DC"
+                          },
+                          new SelectListItem() {
+                              Text = "CA",
+                              Value = "CA"
+                          }
+                      })
+                     .Value(container_info.funcsend)
+                )
+            @Html.HiddenFor(model => model.fix, new { @Value = 0 })
+            </td>
+            }
+            else
+            { 
+            <td>
+               @(Html.Kendo().DropDownListFor(modelItem => container_info.mtype)
+                      .Name("type" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Manifest",
+                              Value = "785"
+                          },
+                          new SelectListItem() {
+                              Text = "Anwser",
+                              Value = "632"
+                          }
+                      }).Enable(false)
+                    .Value(container_info.mtype.ToString())
+                )
+            </td>
+            <td>
+                @(Html.Kendo().DropDownListFor(modelItem => container_info.mfunction)
+                  .Name("function" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Orig",
+                              Value = "9"
+                          },
+                          new SelectListItem() {
+                              Text = "Repl",
+                              Value = "20"
+                          },
+                          new SelectListItem() {
+                              Text = "+ BL",
+                              Value = "2"
+                          },
+                          new SelectListItem() {
+                              Text = "- BL",
+                              Value = "3"
+                          },
+                          new SelectListItem() {
+                              Text = "Canc",
+                              Value = "1"
+                          }
+                      }).Enable(false)
+                        .Value(container_info.mfunction.ToString())
+                )
+            </td>
+            <td>
+                @(Html.Kendo().DropDownListFor(modelItem => container_info.operation)
+                      .Name("operation" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Import",
+                              Value = "23"
+                          },
+                          new SelectListItem() {
+                              Text = "Export",
+                              Value = "22"
+                          },
+                          new SelectListItem() {
+                              Text = "Transito",
+                              Value = "24"
+                          }
+                      }).Enable(false)
+                      .Value(container_info.operation.ToString())
+                )
+            </td>
+            <td>
+               @(Html.Kendo().DropDownListFor(modelItem => container_info.funcsend)
+                      .Name("sender" + container_info.cuscar_container_id.ToString())
+                      .HtmlAttributes(new { style = "width: 120px" })
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "DC",
+                              Value = "DC"
+                          },
+                          new SelectListItem() {
+                              Text = "CA",
+                              Value = "CA"
+                          }
+                      })
+                     .Value(container_info.funcsend)
+                ).Enable(false)
+
+            @Html.HiddenFor(model => model.fix, new { htmlAttributes = new { @Value = 0 } })
+            </td>
+            }
+            @{
+            if (container_info.cuscar == "NA")
+            { 
+                    @:<td><button id="btn_submit" class="btn btn-primary btn-xs" type="submit">Create</button>@*@Ajax.ActionLink("Create", "CreateTxtFile", "txtGeneration", new { id = @Model.manifest_enc.id, cno = item.vc_id, type = "type" + item.vc_id, funtion = "function" + item.vc_id, operation = item.operation }, new AjaxOptions { HttpMethod = "POST", OnSuccess = "success", OnBegin = "AjaxBegin", OnComplete = "AjaxComplete", OnFailure = "AjaxFailure", LoadingElementId = "indicator" }, new { @class = "btn btn-primary btn-xs" })*@
+                    if (container_info.manifest != "NA")
+                    {
+                        @Html.HiddenFor(model => model.fix, new { @Value = 1 })
+                        <button id="btn_submit" class="btn btn-warning btn-xs" type="submit">Fix</button>
+                        @Html.ActionLink("Fix", "Update", "ManifestText", new { id = "", fix = 1, area = "" }, null)
+                    }
+                    @:</td>
+                }
+            else
+            {                    
+                <td>
+                    @container_info.cuscar
+                    @Html.ActionLink("DL", "Download", "Manifest", new { nameFile = container_info.cuscar }, null)
+                </td>
+            }
+            }
+            <td>@container_info.manifest</td>
+            <td>@container_info.original</td>
+        </tr>
+    </tbody>
+</table>
+}
+
+
+<table class="table table-hover" id="head2">
+
+     <thead>
+        <tr>
+            <th>Container</th>
+            <th>Type</th>
+            <th>Seal</th>
+            <th>Wt</th>
+            <th>Vol</th>
+            <th>Pcs</th>
+            <th>Package</th>
+            <th>Comodity</th>
+            <th></th>
+        </tr>
+    </thead>
+@foreach (var item in Model.cuscar_container_info)
+{
+    using (Html.BeginForm("UpdateContainer", "Manifest", FormMethod.Post, new { id = item.cuscar_container_id }))
+    {  
+    <tbody>
+        <tr>
+            <td>
+                @Html.HiddenFor(modelItem => item.cuscar_viaje_id)
+                @Html.HiddenFor(modelItem => item.cuscar_container_id)
+                @Html.DisplayFor(modelItem => item.no_contenedor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.container_type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.seal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.volumen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.no_piezas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipo_paquete)
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item.comodity, 1, 15, new { @class = "form-control" })
+            </td>
+            <td>
+               <button id="btn_submit" class="btn btn-primary btn-xs" type="submit">Update</button>
+            </td>
+        </tr>
+    </tbody>
+    }
+}
+</table>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="windowPreview" style="display: none;"> 
+    <div class="alert alert-warning"> 
+        Verifique la siguiente información antes de manifestar
+    </div> 
+
+@using (Ajax.BeginForm("CreateTxtFile", "txtGeneration", new AjaxOptions()
+{
+    OnSuccess = "success_file",
+    OnBegin = "AjaxBegin_file",
+    OnComplete = "AjaxComplete_file",
+    OnFailure = "AjaxFailure_file",
+    LoadingElementId = "indicator"
+}))
+{
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Información Viaje
+        </div>
+        
+        <div class="demo-section k-content wide">
+            <div class="box-col">
+           
+            <label for="total_bls">Total Bls:</label>
+            <input class="k-textbox" type="text" id="total_bls" disabled>
+
+            <label for="total_peso">Total Peso:</label>
+            <input class="k-textbox" type="text" id="total_peso" disabled>
+             
+            <label for="total_peso">Total Piezas:</label>
+            <input class="k-textbox" type="text" id="total_piezas" disabled>
+   
+            <label for="total_volumen">Total Volumen:</label>
+            <input class="k-textbox" type="text" id="total_volumen" disabled>
+
+            </div>
+        </div>
+    </div>
+       
+    <input id="no_viaje_r" name="no_viaje_r" type="hidden" />
+    <input id="no_contenedor_r" name="no_contenedor_r" type="hidden" />
+    <input id="type_r" name="type_r" type="hidden" />
+    <input id="function_r" name="function_r" type="hidden" />
+    <input id="operation_r" name="operation_r" type="hidden" />
+    <input id="funcsend_r" name="funcsend_r" type="hidden" data-val="true">   
+    <input id="fix" name="fix" value=0 type="hidden" />
+    
+     <div class="panel panel-default">
+        <div class="panel-heading">
+            Bls
+        </div>
+            <div id="grid_bls"></div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Contenedores
+        </div>
+            <div id="grid_cno"></div> 
+    </div>    
+      
+    <center>
+        <button type="submit" class="btn btn-primary">Confirmar</button>
+    </center>
+}
+   
+</div>
+
+
+<script id="successTemplate" type="text/x-kendo-template">        
+    <div class="upload-success">
+        <h3>#= message #</h3>
+    </div>
+</script>
+
+<script id="errorTemplate" type="text/x-kendo-template">        
+    <div class="wrong-pass">
+        <img src="http://demos.telerik.com/kendo-ui/content/web/notification/error-icon.png">
+        <h4>Error</h4>
+        <p>#= message #</p>
+    </div>
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        $("#close").bind("click", function () {
+            $("#window").data("kendoWindow").center().open();
+            $("#close").hide();
+        });
+    });
+
+    function onClose() {
+        $("#close").show();
+    }
+
+
+    function getColorRow(color) {
+
+        if (color == "C/F") {
+            return "<div style='background: #F75D59'>" + color + " </div>";
+        }
+        else
+            return color;
+    }
+
+
+    function success_file(response, data) {
+
+        if (response.ID == 1) {
+
+            var notification = $("#notification").data("kendoNotification");
+            notification.show({
+                message: response.status
+            }, "upload-success");
+
+            setTimeout(function () {
+                // rest of code here
+            }, 3000);
+            location.reload();
+        }
+        else {
+
+            var notification = $("#notification").data("kendoNotification");
+            notification.show({
+                title: response.status,
+                message: response.title
+            }, "error");
+        }
+    }
+
+    function AjaxBegin_file() {
+
+        $("#windowPreview").data("kendoWindow").close();
+
+        var xhr = new window.XMLHttpRequest();
+        var pb = $("#progressBar").data("kendoProgressBar");
+        pb.value(80);
+    }
+
+    function AjaxComplete_file() {
+
+        var pb = $("#progressBar").data("kendoProgressBar");
+        pb.value(100);
+        setTimeout("", 10000);
+        pb.value(0);
+    }
+
+    function AjaxFailure_file(response) {
+
+        var notification = $("#notification").data("kendoNotification");
+        notification.show({
+            title: response.status,
+            message: response.title
+        }, "error");
+    }
+
+    function success(response, data) {
+
+        var notification = $("#notification").data("kendoNotification");
+        var data = response.allData;
+
+        var parametros = data.parameters;
+
+        $("#no_cuscar_display").val(data.no_cuscar);
+
+        $("#total_bls").val(data.total_bls);
+        $("#total_peso").val(data.total_peso);
+        $("#total_piezas").val(data.total_piezas);
+        $("#total_volumen").val(data.total_volumen);
+
+        $("#funcsend_r").val(parametros.funcsend);
+        $("#function_r").val(parametros.function_t);
+        $("#no_contenedor_r").val(parametros.no_contenedor);
+        $("#no_viaje_r").val(parametros.no_viaje);
+        $("#operation_r").val(parametros.operation);
+        $("#type_r").val(parametros.type);
+
+        console.log(data);
+
+        var wnd = $("#windowPreview").kendoWindow({
+            width: "1080px",
+            height: "auto",
+            title: "Cuscar Preview",
+            actions: [
+                    "Minimize",
+                    "Maximize",
+                    "Close"
+                            ],
+            visible: false
+        }).data("kendoWindow");
+
+        wnd.center().open();
+
+        var jsonDataSource = new kendo.data.DataSource({
+            data: data.cuscar_bl_info
+        });
+
+        var jsonDataSourceContenedor = new kendo.data.DataSource({
+            data: data.cuscar_container_info
+        });
+
+        $("#grid_cno").kendoGrid({
+            dataSource: jsonDataSourceContenedor,
+            columns:
+                    [{
+                        field: "no_bl",
+                        title: "No Bl",
+                        width: 75
+                    },
+                    {
+                        field: "no_contenedor",
+                        title: "No Contenedor",
+                        width: 75
+                    },
+                    {
+                        field: "container_type",
+                        title: "Type",
+                        width: 75
+                    },
+                    {
+                        field: "seal",
+                        title: "Seal",
+                        width: 75
+                    },
+                    {
+                        field: "peso",
+                        title: "peso",
+                        width: 75
+                    },
+                    {
+                        field: "volumen",
+                        title: "Volumen",
+                        width: 75
+                    },
+                    {
+                        field: "no_piezas",
+                        title: "Pcs",
+                        width: 75
+                    },
+                    {
+                        field: "tipo_paquete",
+                        title: "Paquete",
+                        width: 100
+                    },
+                    {
+                        field: "comodity",
+                        title: "Comodity",
+                        width: 125
+                    }
+                   ]
+        });
+
+        $("#grid_bls").kendoGrid({
+            dataSource: jsonDataSource,
+            columns:
+                    [{
+                        field: "no_bl",
+                        title: "No BL",
+                        width: 155
+                    },
+                    {
+                        field: "puerto_embarque",
+                        title: "Load",
+                        width: 80
+                    },
+                    {
+                        field: "puerto_desembarque",
+                        title: "Fin",
+                        width: 60
+                    },
+                    {
+                        field: "peso",
+                        title: "Peso",
+                        width: 60
+                    },
+                    {
+                        field: "volumen",
+                        title: "Volumen",
+                        width: 60
+                    },
+                    {
+                        field: "no_piezas",
+                        title: "Pcs",
+                        width: 70
+                    },
+                    {
+                        field: "comodity",
+                        title: "Comodity",
+                        width: 200
+                    },
+                    {
+                        field: "nit",
+                        title: "Nit",
+                        width: 100,
+                        template: "#=getColorRow(nit)#"
+                    },
+                    {
+                        field: "cliente",
+                        title: "Cliente",
+                        width: 200
+                    },
+                    {
+                        field: "direccion_cliente",
+                        title: "Direccion",
+                        width: 300
+                    },
+                    {
+                        field: "shipper",
+                        title: "Shipper",
+                        width: 300
+                    },
+                    {
+                        field: "tipo_moneda",
+                        title: "Moneda",
+                        width: 55
+                    },
+                    {
+                        field: "flete",
+                        title: "Flete",
+                        width: 55
+                    },
+                    {
+                        field: "tipo_docto_desc",
+                        title: "Tipo Docto",
+                        width: 55
+                    }
+                   ]
+        });
+
+    }
+
+    function AjaxBegin() {
+
+        var pb = $("#progressBar").data("kendoProgressBar");
+        pb.value(false);
+
+    }
+
+    function AjaxComplete() {
+
+        var pb = $("#progressBar").data("kendoProgressBar");
+        pb.value(100);
+        setTimeout("", 10000);
+        pb.value(0);
+    }
+
+    function AjaxFailure(response) {
+
+        var notification = $("#notification").data("kendoNotification");
+        notification.show({
+            title: response.status,
+            message: response.title
+        }, "error");
+    }
+</script>
+
+<style>
+
+    .k-notification {
+        border: 0;
+    }
+    
+      /* Error template */
+    .k-notification-error.k-group {
+        background: rgba(100%,0%,0%,.7);
+        color: #ffffff;
+    }
+    .wrong-pass {
+        width: 300px;
+        height: 100px;
+    }
+    .wrong-pass h3 {
+        font-size: 1em;
+        padding: 32px 10px 5px;
+    }
+    .wrong-pass img {
+        float: left;
+        margin: 30px 15px 30px 30px;
+    }
+                                
+    /* Success template */
+    .k-notification-upload-success.k-group {
+        background: rgba(0%,60%,0%,.7);
+        color: #fff;
+    }
+    .upload-success {
+        width: 240px;
+        height: 100px;
+        padding: 0 30px;
+        line-height: 100px;
+    }
+    .upload-success h3 {
+        font-size: 1.7em;
+        font-weight: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .upload-success img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+</style>

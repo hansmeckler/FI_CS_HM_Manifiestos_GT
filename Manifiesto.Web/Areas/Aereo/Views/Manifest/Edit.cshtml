@@ -1,0 +1,602 @@
+﻿@model Manifiesto.Web.Areas.Aereo.Models.ManifiestoViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+     #head {
+        font-size: 10.5px;
+    }
+     #head thead th {
+      background-color: #006DCC;
+      color: white;
+      text-align: center;
+    }
+    
+    #head2 {
+        font-size: 10.5px;
+    }
+    
+    #head2 thead th {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+    }
+    
+    #head3 {
+        font-size: 12.5px;
+    }
+     #head3 thead th {
+      background-color: #27ae60;
+      color: white;
+      text-align: center;
+    }
+    
+    #head tbody td {
+      text-align: center;
+    }
+    
+    #head2 tbody td {
+      text-align: center;
+    }
+    
+    #head3 tbody td {
+      text-align: center;
+    }
+    
+    
+    #head th {
+        text-align: center;
+    }
+    .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td 
+    {
+        padding: 5px;    
+    }
+    
+    .form-control {
+        border-radius: 3px;
+        font-size: 12px;
+        height: 30px;
+        line-height: 1.5;
+        padding: 5px 10px;
+    }
+</style>
+
+@(Html.Kendo().Notification()
+    .Name("notification")
+    .Position(p => p.Pinned(true).Top(30).Right(30))
+    .Stacking(NotificationStackingSettings.Down)
+    .AutoHideAfter(5000)
+    .Templates(t =>
+    {
+        t.Add().Type("error").ClientTemplateID("errorTemplate");
+        t.Add().Type("upload-success").ClientTemplateID("successTemplate");
+    })
+)
+
+<center>
+<div id="indicator" class="k-overlay" style="display: none; z-index: 10002; opacity: 0.5;">
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+@(Html.Kendo().ProgressBar()
+        .Name("progressBar")
+        .Min(0)
+        .Max(100)
+        .Type(ProgressBarType.Value)
+        .Animation(a => a.Duration(400))
+)
+</div>
+</center>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Guias Import", "Index", "Import")
+            </th>
+            <th>
+                @Html.ActionLink("Guias Export", "Index", "Export")
+            </th>
+            <th>
+                @Html.ActionLink("Lista Manifiestos", "Index", "Manifest")
+            </th>
+            <th>
+                <a href="http://portal.sat.gob.gt/jmanif/faces/AdConsultaManifiesto.jsp" target="popup">Consulta Manifiestos</a>
+            </th>
+        </tr>
+    </thead>
+</table>
+
+<h3>Manifiesto No. @Html.DisplayFor(model => model.manifiesto_enc.cuscar_voyage_id)</h3>
+
+<table class="table table-hover" id="head3">
+    <thead>
+        <tr>
+            <th>
+                Pieces
+            </th>
+            <th>
+                Weight
+            </th>
+            <th>
+                Valor
+            </th>
+            <th>
+                BLs
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                 @Html.DisplayFor(model => model.no_piezas)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.peso)
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+@(Html.Kendo().Window()
+    .Name("window")
+    .Title("Cerrar Manifiesto")
+    .Content(
+        "<form action=" + Url.Action("CloseManifestAereo", "Manifest") + " method='POST'>" +
+        "<label>Ingresar Firma</label>" +
+            "<input id='cuscar_container_id' name='cuscar_container_id' type='hidden' value=" + Html.DisplayFor(model => model.manifiesto_enc.cuscar_voyage_id) + "> " +
+        "<textarea name='firma' class='form-control' rows='7' cols='70'></textarea><br />" +
+        "<button id='btn_submit' class='btn btn-primary' type='submit'>Aceptar</button>" +
+        "</form>"
+    )
+    .Draggable()
+    .Resizable()
+    .Width(400)
+    .Visible(false)
+    .Actions(actions => actions.Pin().Minimize().Maximize().Close())
+    .Events(ev => ev.Close("onClose"))
+)
+
+@if (Model.manifiesto_enc.id_status != 0 && Model.manifiesto_enc.cuscar != "NA")
+{
+    <div align="right">
+        <button align="right" type="button" class="btn btn-primary btn-sm btn btn-danger" id="@("close")">Cerrar</button>
+        <a href="@Url.Action("Index", "Transmit", new { nombreArchivo = Model.manifiesto_enc.cuscar, id_empresa = Model.manifiesto_enc.countries }) " target="_blank">Transmitir a SAT</a>
+    </div>
+    <br />
+}
+
+@using (Ajax.BeginForm("CreateTxtFile", "txtGeneration", new AjaxOptions()
+{
+    OnSuccess = "success",
+    OnBegin = "AjaxBegin",
+    OnComplete = "AjaxComplete",
+    OnFailure = "AjaxFailure",
+    LoadingElementId = "indicator"
+}))
+{
+ @Html.ValidationSummary(true)
+ @Html.HiddenFor(model => model.manifiesto_enc.cuscar_voyage_id)
+<table class="table table-hover" id="head2">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.manifiesto_enc.no_viaje)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.naviera)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.vapor)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.fecha_arribo)
+            </th>
+             <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.puerto_origen)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.puerto_desembarque)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.mtype)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.mfunction)
+            </th>
+            <th>Archive</th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.manifest)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.manifiesto_enc.original)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.manifiesto_enc.no_viaje)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.naviera)
+            </td>
+             <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.vapor)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.fecha_arribo)
+            </td>
+             <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.puerto_origen)
+            </td>
+            <td>
+                 @Html.DisplayFor(model => model.manifiesto_enc.puerto_desembarque)
+            </td>
+            <td>
+                 @(Html.Kendo().DropDownListFor(modelItem => modelItem.manifiesto_enc.mtype)
+                      .Name("type")
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Manifest",
+                              Value = "785"
+                          },
+                          /*
+                          new SelectListItem() {
+                              Text = "Awnser",
+                              Value = "632"
+                          },
+                          
+                          new SelectListItem() {
+                              Text = "Temporal",
+                              Value = "632"
+                          },
+                          */
+                      }).Value(Model.manifiesto_enc.mtype.ToString())
+                )
+            </td>
+            <td>
+                 @(Html.Kendo().DropDownListFor(modelItem => modelItem.manifiesto_enc.mfunction)
+                      .Name("function")
+                      .DataTextField("Text")
+                      .DataValueField("Value")
+                      .BindTo(new List<SelectListItem>() {
+                          new SelectListItem() {
+                              Text = "Original",
+                              Value = "9"
+                          },
+                          new SelectListItem() {
+                              Text = "Add BL",
+                              Value = "2"
+                          },
+                           new SelectListItem() {
+                              Text = "Elim BL",
+                              Value = "3"
+                          },
+                           new SelectListItem() {
+                              Text = "Repl BL",
+                              Value = "20"
+                          },
+                           new SelectListItem() {
+                              Text = "Canc Man",
+                              Value = "1"
+                          },
+                           new SelectListItem() {
+                              Text = "Add BL CI/CS",
+                              Value = "13"
+                          },
+                           new SelectListItem() {
+                              Text = "Elim BL CI/CS",
+                              Value = "40"
+                          },
+                           new SelectListItem() {
+                              Text = "Repl BL CI/CS",
+                              Value = "36"
+                          },
+                           new SelectListItem() {
+                              Text = "Canc Man CI/CS",
+                              Value = "10"
+                          }
+                      }).Value(Model.manifiesto_enc.mfunction.ToString())
+                )
+            </td>
+            @{
+    if (Model.manifiesto_enc.manifest == "NA")
+    {
+                 
+        @:<td><button id="btn_submit" class="btn btn-primary btn-xs" type="submit">Create</button>@*@Ajax.ActionLink("Set to pending", "CreateFileTxt", "GenerationFiles", new { id = Model.manifiesto_enc.cuscar_voyage_id }, new AjaxOptions { HttpMethod = "POST", OnSuccess = "success", OnBegin = "AjaxBegin", OnComplete = "AjaxComplete", OnFailure = "AjaxFailure", LoadingElementId = "indicator" })*@
+        if (Model.manifiesto_enc.original != "NA")
+        {
+                        @Html.ActionLink("Fix", "Update", "ManifestText", new { id = "", fix = 1, area = "" }, null)
+        }
+        @:</td>
+    }
+    else
+    {                    
+        <td>
+                @Model.manifiesto_enc.cuscar
+                @Html.ActionLink("DL", "Download", "Manifest", new { nameFile = Model.manifiesto_enc.cuscar }, null)
+        </td>
+    }   
+             }
+            <td>
+                @Html.DisplayFor(model => model.manifiesto_enc.manifest)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.manifiesto_enc.original)
+            </td>
+        </tr>
+    </tbody>
+</table>
+}
+    
+<table class="table table-hover" id="head">
+
+     <thead>
+        <tr>
+            <th>HAWB</th>
+            <th>Shipper</th>
+            <th>Nit</th>
+            <th>Client</th>
+            <th>Address</th>
+            <th>Pcs</th>
+            <th>Wt</th>
+            <th>Freight</th>
+            <th>Commodity</th>
+            <th>Tipo Documento</th>
+            <th>Tipo Moneda</th>
+            <th>Flete</th>
+            <th></th>
+        </tr>
+    </thead>
+@foreach (var item in Model.manifiesto_det)
+{
+    using (Html.BeginForm("UpdateManifest", "Manifest", FormMethod.Post, new { id = item.cuscar_bl_id }))
+    {  
+    <tbody>
+        <tr>
+            <td>
+                @Html.HiddenFor(modelItem => item.cuscar_bl_id)
+                @Html.HiddenFor(modelItem => item.cuscar_voyage_id)
+                @Html.DisplayFor(modelItem => item.no_bl)
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item.shipper, 3, 15, new { @class = "form-control" })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo_tributario)
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item.cliente, 3, 15, new { @class = "form-control" })
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item.direccion, 3, 15, new { @class = "form-control" })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.no_piezas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.volumen)
+            </td>
+            <td>
+                @Html.TextAreaFor(modelItem => item.comodity, 3, 15, new { @class = "form-control" })
+            </td>
+            <td>
+                @{
+        List<SelectListItem> listItems = new List<SelectListItem>();
+        listItems.Add(new SelectListItem
+        {
+            Text = "NIT",
+            Value = "1"
+        });
+        listItems.Add(new SelectListItem
+        {
+            Text = "AAO",
+            Value = "2"
+        });
+        listItems.Add(new SelectListItem
+        {
+            Text = "EEE",
+            Value = "3"
+        });
+        listItems.Add(new SelectListItem
+        {
+            Text = "NTG",
+            Value = "4"
+        });
+                    
+                }
+                @Html.DropDownListFor(modelItem => item.tipo_docto.Value, new SelectList(listItems, "Value", "Text", item.tipo_docto.Value), "-- Select --", new { style = "width:60px" })
+            </td>
+            
+            <td>
+                @{
+        List<SelectListItem> listItemsMoneda = new List<SelectListItem>();
+        listItemsMoneda.Add(new SelectListItem
+        {
+            Text = "GTQ",
+            Value = "1"
+        });
+        listItemsMoneda.Add(new SelectListItem
+        {
+            Text = "USD",
+            Value = "2"
+        });
+        listItemsMoneda.Add(new SelectListItem
+        {
+            Text = "EUR",
+            Value = "3"
+        });
+                }
+                        
+                @Html.DropDownListFor(modelItem => item.ttm_id, new SelectList(listItemsMoneda, "Value", "Text", item.ttm_id.Value), "-- Select --", new { style = "width:60px" })
+            </td>   
+            
+            <td>
+                @Html.TextBoxFor(modelItem => item.flete, new { @class = "form-control", style = "width:60px" })
+            </td>
+            <td>
+                <button id="btn_submit" class="btn btn-primary btn-xs" type="submit">Update</button>
+            </td>
+        </tr>
+    </tbody>
+    }
+}
+</table>
+    
+<script id="successTemplate" type="text/x-kendo-template">        
+    <div class="upload-success">
+        <h3>#= message #</h3>
+    </div>
+</script>
+
+ <script id="errorTemplate" type="text/x-kendo-template">        
+    <div class="wrong-pass">
+        <img src="http://demos.telerik.com/kendo-ui/content/web/notification/error-icon.png">
+        <h4>Error</h4>
+        <p>#= message #</p>
+    </div>
+</script>
+
+<script>
+
+    function onClose() {
+        $('button[id^="close"]').show();
+    }
+
+    $(document).ready(function () {
+
+        var retval = []
+        $('button[id^="close"]').each(function () {
+            retval.push($(this).attr('id'))
+
+            $(this).bind("click", function () {
+
+                var s = $(this).attr('id');
+                var sSubstring = s.substring(5);
+
+                $("#window" + sSubstring).data("kendoWindow").center().open();
+
+                $(this).hide();
+            });
+
+        });
+        return retval;
+    });
+
+    function success(response, data) {
+        var notification = $("#notification").data("kendoNotification");
+
+        if (response.ID == 1) {
+            notification.show({
+                message: response.status
+            }, "upload-success");
+
+            setTimeout(function () {
+            }, 2000);
+            location.reload();
+        }
+        else {
+
+            notification.show({
+                title: response.status,
+                message: response.title
+            }, "error");
+        }
+    }
+
+    function AjaxBegin() {
+
+        var xhr = new window.XMLHttpRequest();
+        var pb = $("#progressBar").data("kendoProgressBar");
+        pb.value(80);
+    }
+
+    function AjaxComplete() {
+
+        var pb = $("#progressBar").data("kendoProgressBar");
+        pb.value(100);
+        setTimeout("", 10000);
+        pb.value(0);
+    }
+
+    function AjaxFailure(response) {
+
+        var notification = $("#notification").data("kendoNotification");
+        notification.show({
+            title: response.status,
+            message: response.title
+        }, "error");
+    }
+</script>
+
+<style>
+
+    .k-notification {
+        border: 0;
+    }
+    
+      /* Error template */
+    .k-notification-error.k-group {
+        background: rgba(100%,0%,0%,.7);
+        color: #ffffff;
+    }
+    .wrong-pass {
+        width: 300px;
+        height: 100px;
+    }
+    .wrong-pass h3 {
+        font-size: 1em;
+        padding: 32px 10px 5px;
+    }
+    .wrong-pass img {
+        float: left;
+        margin: 30px 15px 30px 30px;
+    }
+                                
+    /* Success template */
+    .k-notification-upload-success.k-group {
+        background: rgba(0%,60%,0%,.7);
+        color: #fff;
+    }
+    .upload-success {
+        width: 240px;
+        height: 100px;
+        padding: 0 30px;
+        line-height: 100px;
+    }
+    .upload-success h3 {
+        font-size: 1.7em;
+        font-weight: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .upload-success img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+</style>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

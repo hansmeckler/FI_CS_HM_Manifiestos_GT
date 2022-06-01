@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+.k-grid {
+    width: 950px;
+}
+.k-grid {
+    font-size: 10px;
+}
+.k-grid td {
+    line-height: 2.3em;
+}
+</style>
+
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Manifiesto Imp.", "Index", "GuiasImport")
+            </th>
+            <th>
+                @Html.ActionLink("Manifiesto Exp.", "Index", "GuiasExport")
+            </th>
+             <th>
+                @Html.ActionLink("Manifiesto Courrier", "Index", "Courrier")
+            </th>
+        </tr>
+    </thead>
+</table>
+
+<center>
+
+<h2>Guías Importación</h2>
+
+@(Html.Kendo().Grid<Manifiesto.Web.Areas.Aereo.Models.guiasImportListVM>()
+    .Name("GuiasImport")
+    .Columns(columns =>
+    {
+        columns.Bound(p => p.tipo).Hidden();
+        columns.Bound(p => p.awbnumber);
+        columns.Bound(p => p.id).Title("Actions").Filterable(false).ClientTemplate("<a class='k-primary k-button' href='" + Url.Action("Add", "GuiasImport", new { id = "#=id#", tipo = "#=tipo#", optipo = 23, area = "Aereo" }, null) + "'>Prev</a>" + "<a class='k-button k-button-icontext' href='" + Url.Action("Detail", "GuiasImport") + "/#= id #'" + ">Detail</a>");
+        columns.Bound(p => p.hawbnumber);
+        columns.Bound(p => p.createddate).Format("{0:MM/dd/yyyy}");
+        columns.Bound(p => p.blc);
+    })
+    .Pageable()
+    .Sortable()
+    .Scrollable()
+    .Pageable(pageable =>
+                        {
+                            pageable.Refresh(true);
+                            pageable.PageSizes(true);
+                        })
+    .HtmlAttributes(new { style = "height:480px;" })
+    .Filterable()
+    .DataSource(dataSource => dataSource
+        .Ajax()
+        .Batch(true)
+        .ServerOperation(false)
+        .Events(events => events.Error("error_handler"))
+        .Model(model =>
+        {
+            model.Id(p => p.id);
+        })
+        .PageSize(15)
+        .Read(read => read.Action("GetAll", "GuiasImport"))   
+    )
+)
+</center>
+<script type="text/javascript">
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "Errors:\n";
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            alert(message);
+        }
+    }
+</script>
+
+
